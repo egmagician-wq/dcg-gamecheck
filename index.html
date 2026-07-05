@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>GameCheck — هل جهازي يشغّل اللعبة؟</title>
   <meta name="description" content="فحص مواصفات جهازك للألعاب — هل جهازي يشغّل PES و GTA و COD؟ أداة مجانية عربية." />
-  <script type="module" crossorigin src="./assets/index-DVRuOUcM.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-DMOhy5x9.css">
+  <script type="module" crossorigin src="./assets/gamecheck.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/gamecheck.css">
 </head>
 <body>
-  <div id="app" class="app">
+  <div id="app" class="gamecheck-app">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="مسار التنقل"></nav>
+
     <header class="header" id="site-header">
-      <h1>🎮 GameCheck</h1>
-      <p class="tagline">هل جهازك يشغّل اللعبة؟ — فحص مجاني</p>
+      <h1 id="page-title">GameCheck — فحص مواصفات الجهاز للألعاب</h1>
+      <p class="tagline" id="page-tagline">هل جهازك يشغّل اللعبة؟ — فحص مجاني</p>
     </header>
 
     <div id="check-panel">
@@ -58,7 +60,7 @@
             </label>
           </div>
           <div class="btn-row">
-            <button type="button" id="btn-save-specs" class="btn-primary">حفظ المواصفات</button>
+            <button type="button" id="btn-save-specs" class="btn-primary">حفظ المواصfات</button>
             <button type="button" id="btn-detect" class="btn-secondary">🔄 فحص تلقائي</button>
           </div>
         </details>
@@ -71,8 +73,8 @@
         </details>
       </section>
 
-      <section class="card">
-        <label for="game-select">اختر اللعبة للفحص</label>
+      <section class="card" id="game-select-section">
+        <label for="game-select">اختر لعبة أخرى للفحص</label>
         <select id="game-select" class="game-select"></select>
       </section>
 
