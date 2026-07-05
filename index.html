@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GameCheck — هل جهازي يشغّل اللعبة؟</title>
+  <meta name="description" content="فحص مواصفات جهازك للألعاب — هل جهازي يشغّل PES و GTA و COD؟ أداة مجانية عربية." />
+  <script type="module" crossorigin src="./assets/index-DVRuOUcM.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DMOhy5x9.css">
+</head>
+<body>
+  <div id="app" class="app">
+    <header class="header" id="site-header">
+      <h1>🎮 GameCheck</h1>
+      <p class="tagline">هل جهازك يشغّل اللعبة؟ — فحص مجاني</p>
+    </header>
+
+    <div id="check-panel">
+      <section class="card" id="detect-banner"></section>
+
+      <section class="card tabs">
+        <details open>
+          <summary>⚙️ تعديل المواصفات يدوياً</summary>
+          <div class="form-grid">
+            <label>RAM
+              <select id="spec-ram">
+                <option value="2">2 GB</option>
+                <option value="4">4 GB</option>
+                <option value="8" selected>8 GB</option>
+                <option value="16">16 GB</option>
+                <option value="32">32 GB</option>
+              </select>
+            </label>
+            <label>كرت الشاشة
+              <select id="spec-gpu">
+                <option value="5">Intel / Basic</option>
+                <option value="12">Intel HD / UHD</option>
+                <option value="22">GTX 650 / HD 7750</option>
+                <option value="28">GT 1030 / GTX 750</option>
+                <option value="38">GTX 1050</option>
+                <option value="45">GTX 1050 Ti / RX 560</option>
+                <option value="58">GTX 1660 / RX 580</option>
+                <option value="72">GTX 3060 / RX 6600</option>
+                <option value="82">RTX 3060 Ti / RX 6700</option>
+                <option value="92">RTX 4070+</option>
+              </select>
+            </label>
+            <label>المعالج
+              <select id="spec-cpu">
+                <option value="25">ضعيف (Celeron / Core 2)</option>
+                <option value="45">متوسط (i3 / Ryzen 3)</option>
+                <option value="60">جيد (i5 / Ryzen 5)</option>
+                <option value="75">قوي (i7 / Ryzen 7)</option>
+              </select>
+            </label>
+            <label>مساحة فارغة (GB)
+              <input type="number" id="spec-storage" value="100" min="1" max="999" />
+            </label>
+          </div>
+          <div class="btn-row">
+            <button type="button" id="btn-save-specs" class="btn-primary">حفظ المواصفات</button>
+            <button type="button" id="btn-detect" class="btn-secondary">🔄 فحص تلقائي</button>
+          </div>
+        </details>
+
+        <details>
+          <summary>📋 لصق تقرير dxdiag</summary>
+          <p class="hint">Win+R → اكتب <code>dxdiag</code> → Save All Information → الصق هنا</p>
+          <textarea id="dxdiag-input" rows="6" placeholder="الصق نص dxdiag هنا..."></textarea>
+          <button type="button" id="btn-parse-dxdiag" class="btn-primary">تحليل dxdiag</button>
+        </details>
+      </section>
+
+      <section class="card">
+        <label for="game-select">اختر اللعبة للفحص</label>
+        <select id="game-select" class="game-select"></select>
+      </section>
+
+      <div class="btn-row">
+        <button type="button" id="btn-my-games" class="btn-accent">📋 أي ألعاب موقعنا تناسب جهازي؟</button>
+      </div>
+
+      <section id="result-panel" class="card" hidden></section>
+    </div>
+
+    <div id="my-games-panel" hidden></div>
+
+    <footer class="footer" id="site-footer">
+      <a href="https://www.downloadcomputergames.net/">downloadcomputergames.net</a>
+    </footer>
+  </div>
+</body>
+</html>
