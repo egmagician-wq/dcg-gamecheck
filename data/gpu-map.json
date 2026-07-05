@@ -1,0 +1,22 @@
+{
+  "gpus": [
+    { "patterns": ["rtx 4090", "rtx 4080", "rtx 3090"], "score": 100, "label": "RTX 4090/4080/3090" },
+    { "patterns": ["rtx 4070", "rtx 3080", "rx 7900", "rx 6900"], "score": 92, "label": "RTX 4070 / RX 7900" },
+    { "patterns": ["rtx 4060", "rtx 3070", "rtx 3060 ti", "rx 6700", "rx 6800"], "score": 82, "label": "RTX 3060 Ti / RX 6700" },
+    { "patterns": ["rtx 3060", "rx 6600", "rx 5700"], "score": 72, "label": "RTX 3060 / RX 6600" },
+    { "patterns": ["gtx 1660", "rtx 2060", "rx 580", "rx 590"], "score": 58, "label": "GTX 1660 / RX 580" },
+    { "patterns": ["gtx 1650", "gtx 1050 ti", "rx 560", "rx 570"], "score": 45, "label": "GTX 1050 Ti / RX 560" },
+    { "patterns": ["gtx 1050", "gtx 960", "gtx 950"], "score": 38, "label": "GTX 1050" },
+    { "patterns": ["gtx 750", "gt 1030", "rx 550"], "score": 28, "label": "GT 1030 / GTX 750" },
+    { "patterns": ["gtx 650", "hd 7750", "r7 250"], "score": 22, "label": "GTX 650 / HD 7750" },
+    { "patterns": ["iris xe", "uhd 770", "vega 8"], "score": 18, "label": "Intel Iris / UHD" },
+    { "patterns": ["hd 620", "hd 630", "uhd 620"], "score": 12, "label": "Intel HD 620/630" }
+  ],
+  "cpuTiers": [
+    { "score": 90, "label": "i9|ryzen 9" },
+    { "score": 75, "label": "i7|ryzen 7" },
+    { "score": 60, "label": "i5|ryzen 5" },
+    { "score": 45, "label": "i3|ryzen 3" },
+    { "score": 25, "label": "celeron|pentium|athlon|fx-" }
+  ]
+}
