@@ -1339,7 +1339,7 @@
       "nameAr": "بالوورلد",
       "weight": "heavy",
       "category": "بقاء",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/04/palworld.html",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -1355,7 +1355,8 @@
       "baseFps": {
         "min": 30,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjn3yiE3XGXzQ9uAotpnrjVP80pfEZFzfK4k_ZFd6w17X-OWoavWDwkjwg42tdEtzi7Okn9rbEoHNWbrel7rBsEBF35BxskQtC2z4S79p7SJMmCUk_w5dgnMygM0GhGs6KBsRCpgEAAcPVLVYbUh0kZBY-n31Q_J-6LCUoGu7NcCv6POATGwztwn-Qf/s400-c/Palworld.webp"
     },
     {
       "id": "helldivers-2",
@@ -1460,7 +1461,7 @@
       "nameAr": "فالورانت",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/07/valorant-for-pc.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1476,7 +1477,8 @@
       "baseFps": {
         "min": 60,
         "rec": 120
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjam-bOY_pNpTAKqHJbyuXU2BL6l9098SayH2QPbxt8P5raGSJi8XrC4tLHL8XAezihRKszqgl1eYjYlT1bmMG3nDOKW4uS1fMLWAGT7HIH1pfKCN0GnAl_UMt5bbzGYY2UZl0F-In3dy7s6ff9q-DCAqHYjPCli6jKLesHRYSLkHl-iVZW7CClAQ/s400-c/Valorant.jpg"
     },
     {
       "id": "cs2",
@@ -1508,7 +1510,7 @@
       "nameAr": "كاونتر سترايك GO",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/09/counter-strike-global-offensive.html",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -1524,7 +1526,8 @@
       "baseFps": {
         "min": 60,
         "rec": 120
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRSaqa1R9Kruw0IQWmOdFQHZmx9A6m5BuLafmlsBpNBIo8Dy0P6Cn7o41W6yiNBxaiMBCNs8Ca5gs7NcX7zXCePUBxooQnvlXJWKvYe7MHwEAfWeSnWhawyLAQ_1RrdcfAtMzZ_xz7pA/s400-c/Counter-Strike-Global-Offensive.jpg"
     },
     {
       "id": "lol",
@@ -1532,7 +1535,7 @@
       "nameAr": "ليغ أوف ليجندز",
       "weight": "light",
       "category": "MOBA",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/12/league-of-legends.html",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -1548,7 +1551,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7wd7CXk_pzK8xVxJ0-P_00v0A85EJPl-U1KUCv91cACkz4JzlW-vvfAOulo1FfhZeNE0l6lwMMFuLC_e74oJkzyJDI-mijvIlVYAH4zEnftXbZuUu6_JNOvs9hudv7XvTdYGl8uRNVJAHMnU7Dlx8D5YQjO1UMrhe_rTF3T_LgY0Z6yMWZoNdWA/s400-c/League-of-Legends.jpg"
     },
     {
       "id": "dota-2",
@@ -1628,7 +1632,7 @@
       "nameAr": "إلدن رينج",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/12/elden-ring.html",
       "min": {
         "ram": 12,
         "gpuScore": 50,
@@ -1644,7 +1648,8 @@
       "baseFps": {
         "min": 25,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirRVlVb37RA6hbkgvV3zlIArkn0yAJJG1Ln8WQWp18Kze8npRRIXDiEs0KT4dNsGDY_a5-l07tC78TmjPHVxzO5QbbDouqrIfMO4xFS_9AxqzC0CPhRB9PgeTFNHzeG3w3yq2lL-CQOmkitHLZmme9yUg3xgggqkMXcm977WXmi1pFnrQTBGrR1w/s400-c/Elden-Ring.jpg"
     },
     {
       "id": "god-of-war",
@@ -1701,7 +1706,7 @@
       "nameAr": "سكايرم",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2025/08/the-elder-scrolls-v-skyrim.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1717,7 +1722,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKygn8Ap-ep2t6RY5su8ApkbvIf9jGpDSL0_D_xHFT5DDfYdBhQYBiZcmruisi721au-gAISp-06V964U8zk0v7sOiNKSdYgFYenvoq2TY7zC2a1CdTNTtQdH8XpmAw7uu4SSz_-_tDi2T2ZRRXiB4S4AdriPjYlII90j2YmYM1dXZdTU_ohuhRAG_8Hg/s400-c/The-Elder-Scrolls-V-Skyrim.webp"
     },
     {
       "id": "fallout-4",
@@ -1773,7 +1779,7 @@
       "nameAr": "أساسنز كريد 2",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/10/assassins-creed-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -1789,7 +1795,8 @@
       "baseFps": {
         "min": 35,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjzi3zIAUxbr6ICnP441W25qTPmZCiTRPbyG1OO3k7fnRJUvV0DXiqXdssqqCUJ7UsF86K7IbRX-gKm7cP75hKr7rq49y4WF2mt9tvy7vvjy9lElR_v1y2zxtt6weHEahR8H8UiPk6EWz9iCjO0m07IKTOtI_XbZ5vWRhzmIqCsozOcCIIzAyD8zw=s72-c-e365-rw"
     },
     {
       "id": "assasin-3",
@@ -1797,7 +1804,7 @@
       "nameAr": "أساسنز كريد 3",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/02/assassins-creed-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1813,7 +1820,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhEuzYZucv6IIO1TUibhKfleVeW5gIZTjK2-2tBdzHUWb-8tdZEJAJeSOFY5jNlvBG03j5PNfYFyBvrd8eRMsS-SpjG5eeTI8dVgbgkadA6ZqG5wH0paNl7DQq_0BkBeLltBzXqS987400JF8zKULer_wo0qgsTu0ZedWb8g9huhTI4c_9JVo2bb69g=s72-c-e365-rw"
     },
     {
       "id": "assasin-origins",
@@ -1917,7 +1925,7 @@
       "nameAr": "فار كراي 3",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/far-cry-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -1933,7 +1941,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjEbnwJD5Vx1EVfiUTud9dqpo25SZh7X0BaFoTkN0F177kc3y866l2b9nPE3vbDX-UCyk9MX_VOzNcwlWHUiak6mEaclCpYtzMf8KQReskUxfhRmNnog0LybNnCOHE-zILP7lqtU9J0dgiKdVPMWOWWhaayT96NJcV-dPDMseKt-fCSME19E194Bw=s72-c-e365-rw"
     },
     {
       "id": "far-cry-4",
@@ -1989,7 +1998,7 @@
       "nameAr": "واتش دوجز",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/05/watch-dogs-1.html",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -2005,7 +2014,8 @@
       "baseFps": {
         "min": 28,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJVsZpWK2mve0bg1mjBEN_amN_9FlBCACSp3kE6ET9OMtPSP1RrSdj66jTuP73P_ZzUhdUwJu5E2UfIKz9Mmx0Hz5ORErM8fD_BN5v5JQ2M8J9M1BMStzrfCKEZ06gx-C2OxHASL21vfUs3vpT45jOcUCKhwkjQp19CXvRrj2Ae0x_EjLU9H9Wqh8S/s400-c/Watch-Dogs-1.webp"
     },
     {
       "id": "nfs-most-wanted",
@@ -2061,7 +2071,7 @@
       "nameAr": "نيد فور سبيد هوت بيرسوت",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/02/need-for-speed-hot-pursuit.html",
       "min": {
         "ram": 3,
         "gpuScore": 25,
@@ -2085,7 +2095,7 @@
       "nameAr": "نيد فور سبيد باي باك",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/need-for-speed-payback.html",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -2157,7 +2167,7 @@
       "nameAr": "روكت ليج",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/rocket-league.html",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -2173,7 +2183,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjxYZf5xI-7xuU41HnhGDNkMuUt5XtrtW9Q8dd2n9Nk31B6XiBnlymZC5SwWOfLsZ46Akfn3PFLTzxCtkY7ZMpD4fW7e1sM_U1eKNH4ZdAoiFce-B2AZ7AtroB0epZYBndIx6nySo0E_GyFHrsJlUWk4iNp6oT9-E8LCRkeOUY5nNEENljLzS_QUg=s72-c-e365-rw"
     },
     {
       "id": "among-us",
@@ -2206,7 +2217,7 @@
       "nameAr": "تيراريا",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/05/terraria.html",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -2222,7 +2233,8 @@
       "baseFps": {
         "min": 50,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4a-8XFq-w-0KtWRcTeLwceyA2BdMCrwcUgXya-ZaOzcmzRLHp1fHhrLknXdKlMeOycdv-n6HyjPy69MQD21GQBTQ1e8-kEUm1jYUI7DVWcIeDGwrHZA2nNo2EqPD8T6orL06s1fKCSSrLnDS8UNTLHkbW5zq9CTqOSbf6PMdguOPjJC-iNsq6Ww/s400-c/Terraria.jpg"
     },
     {
       "id": "hollow-knight",
@@ -2254,7 +2266,7 @@
       "nameAr": "كب هيد",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/10/cuphead.html",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -2270,7 +2282,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgystkKUJ2LaU4jt_uNQbP_ihCXfWCpgJd1dapXEZvjzQ1nM67wNkie0wEPyX9ZAybnh9GAz5VZbf8SyaWEliIN5lH7_W5KP2HhUHSldlWS3h7O6og-85hgZJCnj-X_Ab47-6YJ6Oo85wvzbtdT5SV8OgT-tPw3f47U0CsmzQSSHRoTXmKr4sGdkB4b/s400-c/Cuphead.jpg"
     },
     {
       "id": "undertale",
@@ -2350,7 +2363,7 @@
       "nameAr": "ليفت 4 ديد 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/06/left-4-dead-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2366,7 +2379,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-x35vVFE9S-g8IRQWsvCcrkFlJLuozPM5-gipTMcSEAR6bN2s1JtJDt1HY82dxG3s1WDttwn1qnJQlDmZoCjsUCOZw13H_TFFBXxibMahV88nGtDq09vtvHjdZRIUGy81F6Mz-OkNfA/s400-c/left-4-dead-2.png"
     },
     {
       "id": "team-fortress-2",
@@ -2374,7 +2388,7 @@
       "nameAr": "تيم فورتريس 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/07/Team-Fortress-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -2390,7 +2404,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDWl7W5eLsewinAvsovo3xxg5WdlspoVbMztBV-hT8e2yP3cRAcscPYR1YfUQIZdKOUfjJ3xBHPhMxI2oWS_mmb_GWPq39anMA3N4wD4Q6JZmXajAw7MNIdoCKZ0Wa5pKdnG6_hpUdx4Z9y_r1Zm6lFtmPePIBEEBRa9eYfTxxC2Uq5B_5FvBRYbwi/s400-c/Team-Fortress-2-logo.jpg"
     },
     {
       "id": "doom-2016",
@@ -2471,7 +2486,7 @@
       "nameAr": "ريزدنت إيفل 5",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/09/resident-evil-5.html",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -2487,7 +2502,8 @@
       "baseFps": {
         "min": 35,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHiYDPTS2DhoYvbhfUh_se3CMXjmiyxZA6R1NjwDTCjVitWiXJjKUa7JW7SpLfMzCVabo_UW-yJZIZhRUyrbUoQxF5LLR5VRJ_L0jTHpbbRxyN8jRdmaPP77NlQ5-I5g2WR9u7noydANFWV3ATDDYEoZ7QI3w4D5vUWSG_0J1_K42GQPP4q0tFfy5N/s400-c/resident-evil-5.jpg"
     },
     {
       "id": "resident-evil-6",
@@ -2567,7 +2583,7 @@
       "nameAr": "فاسموفوبيا",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/phasmophobia.html",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -2583,7 +2599,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEg7wHN3wu0_x1nz9BFyy28cw_mJSbM02VuY10NgNnWUe_-8mCWpI6VArWo4pGU5xMNAlCP5p_ILyzoLxCJY9Bo7LRPLA3TzvaBHmxXGVbSOcoRtXmsGaeO1Cv9-Wi1iqg6MzdaNq5wb5u_2hXt69hiCNoU1y-Ld-tBQdFFmG9oOUjAZd3_bhU-IoQ=s72-c-e365-rw"
     },
     {
       "id": "the-sims-4",
@@ -2615,7 +2632,7 @@
       "nameAr": "ذا سيمز 3",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/05/the-sims-3.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2631,7 +2648,8 @@
       "baseFps": {
         "min": 30,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW-PGok-Ov4nyFWMZwDqTVEyBv5icdOfZtyT9yxmC0-0SGv-loNH_Zx9BrY_TopFPi3d_14jIkG5cODmFEkEu8NycoGKZfA5oYicafLFRzKtrUTriti1L2FokTeQdxm8U-B6zjY01Ot5BeVn7DafYmSNQjWWHgvfwiKAvIiQGRVuaeMJvM1vT7hQ/s400-c/The-Sims-3.jpg"
     },
     {
       "id": "cities-skylines",
@@ -2688,7 +2706,7 @@
       "nameAr": "فارمنج سيميوليتر 19",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/farming-simulator-19.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -2704,7 +2722,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgmOgZ4wGlc2n79BeEBQzvCu4Y9tma7ROAnN6LCbBhfURP9qpy3WxfQVEIZTXWas6-0KiVi08glhg1rO4BO2BDUlca89ctISecN69YlMimHwwf9_pXwAqWbx3NlttJ1HDEcdWwvwvCrgmsLdzc5ozIBDVLxHYM70NzmM5aAYUog7J3aXTJqskehGQ=s72-c-e365-rw"
     },
     {
       "id": "age-of-empires-2",
@@ -2712,7 +2731,7 @@
       "nameAr": "عصر الإمبراطوريات 2",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/age-of-empires-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -2728,7 +2747,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_DB6-2EMdQGu0DFE3AVsNjr0GFvHDl28zoVUYEyXLChMFugjBVunC3uMb1EiL1tEf64-9xaA8-s1KA78nIzBJ1X-LhYMA3xudvGQgbjD-iOZGbiRUwB3_Ns6H645WGktn5wD4RWn2WDCM3OXFMJwOZFT4KXor4aYn8cWvEkXPh_UnswLhpRzgOg/s400-c/Age-Of-Empires-2.jpg"
     },
     {
       "id": "age-of-empires-3",
@@ -2977,7 +2997,7 @@
       "nameAr": "أبيكس ليجندز",
       "weight": "medium",
       "category": "باتل رويال",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/07/apex-legends.html",
       "min": {
         "ram": 8,
         "gpuScore": 38,
@@ -2993,7 +3013,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYdXaR_Dr-r0XgUY91JJkkqFX0jrF7nUuZWX-ZFnj2dhDLj0MRWamwOSutraNZLGPF7QfDDVuG82GeGVHHmfaI1nsOqsUl_pBcU0Vn_H1bCtiiRXahwBLlqcBdKfvjy2h-h8LeBFmwnKwOlLmH-iJxKnrd54HDMqFct0ucqDk4ndJuMDGVlrdKLA/s400-c/Dream-Engines-Nomad-Cities.jpg"
     },
     {
       "id": "warzone",
@@ -3073,7 +3094,7 @@
       "nameAr": "باتلفيلد 1",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/battlefield-1.html",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3089,7 +3110,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjt_4OFOApMdVivTXPhz9go0RSBCwKYO4KeHQLWaTMNjGDBZn3XpwxSlests-ib5Lts1IWGHe4AYb4yeolj0RJwrFaHir6_nfsQDJ0K5cpSQ63_h3YRov4QjWX5N8TiMjqlggagoWhJALu6PvGTgPE6OBI1-BFY3oH5GA3vUMNNxO-fZNQ96_21xQ=s72-c-e365-rw"
     },
     {
       "id": "battlefield-4",
@@ -3196,7 +3218,7 @@
       "nameAr": "سليبينج دوجز",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/sleeping-dogs.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3212,7 +3234,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhu7r_46g-1xXNuUg_5BM3ucwpyNLxLhflz_fIqRa7rM2M__Iz3NDwtzcX_RMlwG6uyeyu7KO9P637tqFYGbi9YdyFEsWk9pfgGdmNnbxUTOyVtCjkwoXG1e1Jgo6AjZ-8SEwE2jPoEVFl_cYb-pfntlNfomi2HdC9wGJyfhR1WIPRevmD9qFChKw=s72-c-e365-rw"
     },
     {
       "id": "max-payne-3",
@@ -3294,7 +3317,7 @@
       "nameAr": "جاست كوز 2",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/03/just-cause-2.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3310,7 +3333,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEglYjIRik18VOJKIfaaFxjmbG3Msm0zVH6hLMzXe84ciYJyP_j-AUVXYOMPHqtowLkGt7Zdy4PWGG6J7-JrxwAkSdfWksoh1CCsb5Rvw58CfJsU4cuia8BMvSeuqSzHlpiZZjfb5DgNI9q4EcvBi2yDR5k4-tduTb8dzo_Fw7dp9w2nhGGcJ6rYaQ=s72-c-e365-rw"
     },
     {
       "id": "just-cause-3",
@@ -3342,7 +3366,7 @@
       "nameAr": "هتمان",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/05/hitman-blood-money.html",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -3358,7 +3382,8 @@
       "baseFps": {
         "min": 35,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLokSJGrVVxRf4epUChwZ-y67n8SvOL1enaciry80uRwgPvyMw3l_I1vng-uMiZhAiMRosTBJUEZUccmX03Nrj5z0kzNYW3nePxY_PRO05SIuVD5WJYmKEZlKhsmZixEGSyIGbU4KEQw/s400-c/Hitman-Blood-Money.png"
     },
     {
       "id": "hitman-2016",
@@ -3462,7 +3487,7 @@
       "nameAr": "كرايسس 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/05/crysis-2.html",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -3478,7 +3503,8 @@
       "baseFps": {
         "min": 28,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSG-pplsJOoavqabHSC3cAjDqp3BQQbQTL7hY8gz_f_gVec4rXEYc_1N4URMxtGWSAaYLnFOA9utftHq_lJwpcxZQSsavMySoZuDSIJqcoiViJzVqD47DE9x9NuU_LJnbbjKluHHGs6Z97eBUeOYKyI8laJoL-M4IJSzknXcsKgn7kyY8Q5leeeg/s400-c/Crysis-2.jpg"
     },
     {
       "id": "bioshock",
@@ -3486,7 +3512,7 @@
       "nameAr": "بايو شوك",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/07/bioshock-remastered.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -3502,7 +3528,8 @@
       "baseFps": {
         "min": 35,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihXk9RTCSDxDUup3SbVRYMO4TY6v8llmWPZ2TIve5aelzDkZW4Z50neCNqUWkhwgvLfWIT17A-uJ0D6FhBjOAb9I9LXMSV1gA0Iu8XX_7t17oAdpna0E6PmDqQ_A-Kxb0QEECHjpAms0GoTfJqpU8606cE64ZZumgkrS9MXvZcn-6YpqhiWz5BZ7sx/s400-c/BioShock-Remastered.webp"
     },
     {
       "id": "bioshock-infinite",
@@ -3630,7 +3657,7 @@
       "nameAr": "ماس إفكت 2",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/06/mass-effect-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -3646,7 +3673,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Yj0l1dIQApsHPcpaITNv2fcM6gHnvO_Lb-WlevEIQEqO3DqX1BnoLri_iszcEvs5ffNyQLKz0E8WTMZ3xaVATZN23an24IvvFuj8KNdRQbxK1EIV2M9XwYKYHFK43PeUPMVLSkXt1XIQ30M9ZLurbFodt4-EW3kZY0Z55qUy0PtyWUg6_S9tK53K/s400-c/Mass-Effect-2.webp"
     },
     {
       "id": "mass-effect-3",
@@ -3654,7 +3682,7 @@
       "nameAr": "ماس إفكت 3",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/06/mass-effect-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3670,7 +3698,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrZnIIlPYoA0pJhlKGN7FZUCwULuB4Nua8lz9RFZnFkwEMtUypIzS6A9uB7HEjjBcFveA9_ylHgeWh5p05qrIq_Ye-3X_MighqxW2Ihvg8LriUXA_YpL0vS53QWlI8lTtpPPTp9i8u9bLWvdu3uECcv-inesaalaQSuWON5hz8rot0rWMBmenuX2Tm/s400-c/Mass-Effect-3.webp"
     },
     {
       "id": "dragon-age-origins",
@@ -3774,7 +3803,7 @@
       "nameAr": "مورتال كومبات 9",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/mortal-kombat-9.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3790,7 +3819,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEh9PxBhrqyKYuBCEWFG_G8Mycp5dJAC944CiFjqkQ9k2hGP15veYxCGVtEtHyDvaJT-uvo1Ena6nstMqfniYhgK-6pBZgXrPvVglIap917OFk6xIfpRCKrOOheu6sw-OX0HpoSUTui_LqfamDhQ7tbLscuSxiF2emZ9hED9_-bKrefR6-ycanhLcw=s72-c-e365-rw"
     },
     {
       "id": "mortal-kombat-x",
@@ -3846,7 +3876,7 @@
       "nameAr": "تيكن 7",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/tekken-7-for-pc.html",
       "min": {
         "ram": 6,
         "gpuScore": 32,
@@ -3862,7 +3892,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8Pc4YZlFgZOUTpH1TizsxNbw5UiQa55InIMvM4_EJ2E5KdHACUHgBJAC1QTb_sKqL5K9_NyEulBQT1m7okXz_5e-nQ6hVYrK3w-DyXfX2NKdoZchUZsKeDTF2cz00qt-i7oDVe_NiLWeecSZYl246cUfIWSqBzn6RcBoRDTL0f0BH7CB7m4Zi6g/s400-c/Tekken-7.jpg"
     },
     {
       "id": "street-fighter-5",
@@ -4137,7 +4168,7 @@
       "nameAr": "سونيك",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/05/sonic-generations.html",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -4153,7 +4184,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkcOGEy0kKFgJLqVMMR2k56NS9QnxBJhnJk8o5Qu1jShy_QSBbR2zpqLe_QXqGaLzVUnB9P7uZXMI5AMO_FM5aqakZyiMaf19imNWsSzobjj4kslj39E7DAlIVTHPavhReXE04n52mpaGBgc1XEaR2KJu9N3HAXB5P8yGKS1_ab4bXCkWeaTf5JQ/s400-c/Sonic-Generations.jpg"
     },
     {
       "id": "crash-bandicoot",
@@ -4161,7 +4193,7 @@
       "nameAr": "كراش بانديكوت",
       "weight": "medium",
       "category": "أركيد",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/02/crash-bandicoot-for-pc.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -4177,7 +4209,8 @@
       "baseFps": {
         "min": 35,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBRsNX7t1qgXLAJbQeZt4fusDyUKFsBiNDUPc_PgkzPIIx1yFcQse_VM3f_7_fSMt9UPEin6kE_vMe3pBVDh9z3AG6pSSrUqko8Re2OV3tCMGsFaXRwzUMX5z87nl2GdZnb5IV0pIgqA0/s400-c/Crash-Bandicoot-N.Sane-Trilogy.jpg"
     },
     {
       "id": "rayman-legends",
@@ -4233,7 +4266,7 @@
       "nameAr": "سيليست",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/03/celeste.html",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -4249,7 +4282,8 @@
       "baseFps": {
         "min": 50,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIoBtyNlmuAtjnbw-Pw5OHo7n4U7rKPcJQDYXDFa_lw1ZqX6-dtsxO3XMHGd3AQ5uI7oemwwHJNrNuSdb424rs65pOfLnQ2lGzR6vzqs-ypEmjcavzhJr1lLaSWwjob4eFnwMiozrnp2Ql3VKWHFaHtpxHLbwK6q4LcUWNW1-mL3bcGFCJjubbQg/s400-c/Celeste.jpg"
     },
     {
       "id": "hades",
@@ -4449,7 +4483,7 @@
       "nameAr": "رافت",
       "weight": "light",
       "category": "بقاء",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/08/raft-for-pc.html",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -4465,7 +4499,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNLUe9tbVF_WdSmShRPpHTZs-MuAwuRiDF51aNS1xe7_4nLdrUpXIAe497-Pr5SYtpaemja0dV_gi7K0yCuw4W-tbxXRv77wGbzoIe8GCKOhFB6gXzO_zVAtWeBTfSduio31xS8ybUQ/s400-c/Raft.jpg"
     },
     {
       "id": "valheim",
@@ -4473,7 +4508,7 @@
       "nameAr": "فالهيم",
       "weight": "medium",
       "category": "بقاء",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/12/valheim.html",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -4489,7 +4524,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjtS3iGYdgQ-whASr3HE3hOE59D9W2Jvs_G4w1_iUcxSsEihxtDGqPL8VF5KeBg_xSg3vMrcvvjDJs4xO9MTSKLhNM-Btta5-Tlm4_80Pa0hljgu3jnMnMcq9j28QQut1r-e5mPymPoViBNeh7ziu9O37KD1XZd-KvKGh9pxfnt5X5obVifjGlppRh/s400-c/Valheim.webp"
     },
     {
       "id": "7-days",
@@ -4569,7 +4605,7 @@
       "nameAr": "روبلوكس",
       "weight": "light",
       "category": "منصات",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/07/roblox-for-pc.html",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4585,7 +4621,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhG7OXZKE9jhZsMYyGyFZrN9bl968dyeh-Al1MwZQl5xc1OICA7nhn6ITCEpryQEvpaK9ZJlLo_-3paFTSOyhP13iAuIo4VT0B9wsZiPlbLdcYomBQJv5H_3XclolO4Lscrha8jdDcXBQ/s400-c/Among-Us.jpg"
     },
     {
       "id": "osu",
@@ -4689,7 +4726,7 @@
       "nameAr": "بيمنج درايف",
       "weight": "heavy",
       "category": "سباق",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2025/12/beamng-drive.html",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -4705,7 +4742,8 @@
       "baseFps": {
         "min": 25,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHZgw6Z9FavHft9bIapL7-pQ2Yz1eDowswRAY5-aFlsNs9PhQY0UTl9-FrQVsnYk-yM1SKjF1kAA9sQYDLQfCkJvbK8FQBWwGqEzT7PbLJH2w5W6OTNGOqILCHInf2YxX8mKSE1WJf7A9BdJfmqB_rUmLqyz0kIjliof09YuhouzxN9A3iDk9lzxARTFM/s400-c/BeamNG.webp"
     },
     {
       "id": "mudrunner",
@@ -4737,7 +4775,7 @@
       "nameAr": "سنو رانر",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/12/snowrunner.html",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -4753,7 +4791,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYSAsiZHCL1uazC-PUMOfSDvHp6GXOfgYx6fg9F3k9PaJRTh_CnfRDvy6jHANrj44hfprI1Sg7D1BTgZE4bOcOVYGHDvP5VugBnq0nnF5iISPVXsu93L5KiNM4xE4BYJ2gEyeKiwDfx8muzsW00LwpwMSwnJoLRqpRbu9orX3eMORSbXilOye9Nwpt/s400-c/SnowRunner.webp"
     },
     {
       "id": "truckersmp",
@@ -4929,7 +4968,7 @@
       "nameAr": "زو تايكون 2",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/zoo-tycoon-2.html",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -4945,7 +4984,8 @@
       "baseFps": {
         "min": 30,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3mkLewnB1sA-BViodmfChKX1rHzpy4oLZCj_V8gjFSYJcXm7zafzj5_zbP42ELzguoitJfKL0o6w-uuRu7dIxpYT549ibtdKWiM1I8mXycGXkOUyOKJb0p1290CgDraCPbtEY1-QQmuw__fn8nytDrezrU8nymK1qcR_Oq8WXQrsz-zmjUEiVcw/s400-c/Zoo-Tycoon-2.jpg"
     },
     {
       "id": "black-and-white-2",
@@ -5121,7 +5161,7 @@
       "nameAr": "توتال وور روما 2",
       "weight": "medium",
       "category": "استراتيجية",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/05/total-war-rome-ii.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -5137,7 +5177,8 @@
       "baseFps": {
         "min": 25,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ2mXPmmlus3YkrqtY50i5e4vcG0v9DwWN8GrTlNQO5PIrUGxJbjqvfQ0eNXFgBJrQgMxiTSQ433BKWau6aMjrsThse1yC8aFQZdcVxH9nHAYpFmUnHR3zo2uP-QLQSBwzio31G5GpeYxjm6vw_9OwQXG4QzxyZLSE8N0D0-IsGmjL4TSru9LB8g/s400-c/Total-War-Rome-II.jpg"
     },
     {
       "id": "company-of-heroes",
@@ -5218,7 +5259,7 @@
       "nameAr": "ريد أليرت 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/04/red-alert-3-download.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5234,7 +5275,8 @@
       "baseFps": {
         "min": 30,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqABvoz2t3X97DTCXGXRiZR1RTmOYLmLX5IV483vF0TGUqK3zbvDOK2H1IBhPE5h4-WiiOelt9cdf3MCEDtdAz83ULyjAyYgmQ86hTxhMrF3fJEVqgLU0Ugfw0gmQNaJ-Z2LLYtMhkydhwnpv_1dIQwSIw8NRE0fY3GdMccPtXCot_ZuMUX1F3Dw/s400-c/Red-Alert-3.jpg"
     },
     {
       "id": "empires-earth",
@@ -5604,7 +5646,7 @@
       "nameAr": "كونستركشن سيم",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/06/construction-simulator.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -5620,7 +5662,8 @@
       "baseFps": {
         "min": 25,
         "rec": 50
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgLML-ar80L07UcUxePvHmM8GbSiCuHaN9TuCO9nj-l9Hr6i9L2aX65s4hq6WjH4SmVEzQY6SmIFMKt8jKZn2Ifj1I640Rj3KfjdkVaMgn5x1nLN_3rouwY3bQnztKj1l69mZjYL1PAjMOn02punwI692gQm4LvvUCTJfpMIcgDNMYzfe1yw6eGOFA/s400-c/Construction-Simulator.webp"
     },
     {
       "id": "firefighting-sim",
@@ -5652,7 +5695,7 @@
       "nameAr": "هاوس فليبر",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/download-house-flipper.html",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -5668,7 +5711,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtDuWWnCxrrVjYZ-buArsWNlPFNqtFe4wPIG2CmDAC7imdxOvf2G0L8P3ewDowQRcQ8h_KoSMq9-lD4jFpcRUbrlHUT_UnA4Yr6JvXBxqPNNusQePBDHZG4xbmgLw5c0GPa_u6rJcBdfzq_-Fzo5lICbQhyCynaqKzDUKA-vzMvqC7a3AM5HfcZA/s400-c/House-Flipper.jpg"
     },
     {
       "id": "powerwash",
@@ -5796,7 +5840,7 @@
       "nameAr": "ليمبو",
       "weight": "light",
       "category": "ألغاز",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/11/download-limbo-1.html",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -5812,7 +5856,8 @@
       "baseFps": {
         "min": 40,
         "rec": 60
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsMmUYirtNba03DJSXGjQ2HtDqliF5yRIHqJKPdQ-w05ju8mLkn7-SYnWA9NiYjXK8qEm9o7JlxqWrIK1ilxubLpiIoIpW09mYsWRd0boaM_qCwcohlENL3c5rtEEgdN-6ow3EoA6bbuETagYiY-4Fwee-_fsuYhGprPYAX-45-XaMtB0HQLpa_KuB/s400-c/limbo.jpg"
     },
     {
       "id": "inside",
@@ -5892,7 +5937,7 @@
       "nameAr": "أوتلاست 2",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/10/outlast-2-download.html",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -5908,7 +5953,8 @@
       "baseFps": {
         "min": 30,
         "rec": 55
-      }
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3olPvFvxeNPRsTkWI_bASABm4AD3-Ur5g3DFI6iZCTe5Rx2E583ijvyTim5MUfB8YEY-2yfFTVnPWaiM0aXrcnZ8B-F5lrA0e0NQdBwMzzHv5yba8C3W7o-lIUw6rOXvy2nJ7X6QFebx7EbnGwM9NRrwbF5xXuxqfzkoTd_x62fTr1y9MQJ3pOFQJ/s400-c/outlast-2.jpg"
     },
     {
       "id": "amnesia",
@@ -6053,6 +6099,904 @@
         "min": 30,
         "rec": 55
       }
+    },
+    {
+      "id": "assasin-1",
+      "name": "Assassin's Creed",
+      "nameAr": "أساسنز كريد 1",
+      "weight": "light",
+      "category": "مغامرات",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/10/assassins-creed-1.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 25,
+        "storage": 6
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 38,
+        "storage": 8
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhrE-sftJ9NhdNeJrFMNsE3CUr3lwcysD3xVbofixJI0XCXSF_D-QTMwBgSW3eh6OkKbZKYwOEVuqu8ZWlmyjPsktGPklEGSbMlJV-HMtYcp-TF2C_9F48jMJSsrmqZCl4_gNyjeLDVy0_eQ7YJrK4PH0mkdulmYfWCrZ73SuDwr8XoSwLK_NzhuQ=s72-c-e365-rw"
+    },
+    {
+      "id": "assasin-brotherhood",
+      "name": "Assassin's Creed Brotherhood",
+      "nameAr": "أساسنز براذرهود",
+      "weight": "light",
+      "category": "مغامرات",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/06/assassins-creed-brotherhood.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 18,
+        "cpuScore": 28,
+        "storage": 8
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 32,
+        "cpuScore": 40,
+        "storage": 10
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgHibpqbCe5BOHD1XXINmZtLeCUCew49l3rU1tjT_2Gz7ebSBYnd6zfBC4Ul3rwS-_yXIUbJXzycQxZ2P26n3mrdm7yiYaIhtxW3vPMUIy6gfJ7yX-8m-fD7qKqV16GguObMr6hhU8EukUJlBq402hz6wkEcyDJEiv-WkgemWPJLSb3ANWgCBFBx31/s400-c/Assassins-Creed-Brotherhood.webp"
+    },
+    {
+      "id": "far-cry-1",
+      "name": "Far Cry",
+      "nameAr": "فار كراي 1",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/far-cry-1.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 3
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 4
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEjFHeK-4kr1_aGqz1ti5VFTOxqsCnlGHbAycSBIkzo2jpjUorOPS6_uJM8o3CxdfmE3z4RGVg0VEt9PnMaygF2awr4A-fe_FPszXZPhmXDQ0V4KmtG0Zrkh-bYF-KU4wqAeadQW3AFW0SoIB66nFU1xLhbWtcix0ra-sLTAHvRS8zNxIxfO2KIhTg=s72-c-e365-rw"
+    },
+    {
+      "id": "far-cry-2",
+      "name": "Far Cry 2",
+      "nameAr": "فار كراي 2",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/far-cry-2.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 6
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 40,
+        "storage": 8
+      },
+      "baseFps": {
+        "min": 32,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEiVHTwO3Qap4UTGnIBfLE8-qu01L1_4-vydZiyb18fhwOSEYKF-k6dh440_uipWThWnoVvjDtryqqK1kZvJswS2VqH87Tf8RRk11jx93S4D9gJbpDaqwN2wr3K14wVgypIe_9flXhc_WzKuyozx-9xKK5rqDncfZZhJoxOJlRb4KwPtys4vKJTR9w=s72-c-e365-rw"
+    },
+    {
+      "id": "far-cry-primal",
+      "name": "Far Cry Primal",
+      "nameAr": "فار كراي برايمال",
+      "weight": "medium",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/07/far-cry-primal.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 32,
+        "cpuScore": 42,
+        "storage": 20
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 52,
+        "cpuScore": 58,
+        "storage": 25
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6dMG9sNzvO-lVTyXW93D_5XdBNyb-zPp9bE1h0dmZxcmpAiFAQS5eY6kJXLETtEm5g0a8t6JAx8_Myovo7_p6ED17p85h2sX7UQNs16tvFBneylDWcrTD9kpz9AVxYeAqh8-NjUbU8CTYYDXE_Mz19Wb51XTyWeEtHP6MigYzF7aqxTmwFBCSGg/s400-c/Far-Cry-Primal.jpg"
+    },
+    {
+      "id": "forza-horizon-3",
+      "name": "Forza Horizon 3",
+      "nameAr": "فورزا هورايزن 3",
+      "weight": "heavy",
+      "category": "سباق",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/09/forza-horizon-3-for-pc.html",
+      "min": {
+        "ram": 8,
+        "gpuScore": 42,
+        "cpuScore": 50,
+        "storage": 80
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 65,
+        "cpuScore": 65,
+        "storage": 100
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMOXrCjjXhLklwtJsEOesEcq8ls8uIwpzSVZbfGOw57eFs-BIvTWfo-LmeuK3YNSpWoihBvturmFcLbtdSQbeZTdHgLnkMNrN5T9cHZso19dXKJRanspdDiE-ULnISl9QN8_E5yNaOxQ/s400-c/Forza-Horizon-3.jpg"
+    },
+    {
+      "id": "nfs-underground-2",
+      "name": "NFS Underground 2",
+      "nameAr": "نيد فور سبيد أندرغراوند 2",
+      "weight": "light",
+      "category": "سباق",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/need-for-speed-underground-2.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 3
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 4
+      },
+      "baseFps": {
+        "min": 45,
+        "rec": 60
+      }
+    },
+    {
+      "id": "nfs-most-wanted-2012",
+      "name": "NFS Most Wanted 2012",
+      "nameAr": "موست وانتد 2012",
+      "weight": "medium",
+      "category": "سباق",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/need-for-speed-most-wanted-2012.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 38,
+        "storage": 15
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 48,
+        "cpuScore": 55,
+        "storage": 20
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      }
+    },
+    {
+      "id": "igi",
+      "name": "Project IGI",
+      "nameAr": "آي جي آي",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/07/igi.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 5,
+        "cpuScore": 15,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 25,
+        "storage": 2
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjFVMS1yjH5OMG6TrLK4IY85kSMvPZnP8wL-EgYmxp9PROG_gNUInXlSEDcEUBaHOrq1VjdMsMP1iQMTxTgU0EgS5Pc2_I_bTxpOLyKvMus02Zsvx85klGo0TdVj3rxpEE-_giEWWWh5o/s400-c/IGI.webp"
+    },
+    {
+      "id": "igi-2",
+      "name": "Project IGI 2",
+      "nameAr": "آي جي آي 2",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/11/igi-2-covert-strike.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 2
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 3
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjFVMS1yjH5OMG6TrLK4IY85kSMvPZnP8wL-EgYmxp9PROG_gNUInXlSEDcEUBaHOrq1VjdMsMP1iQMTxTgU0EgS5Pc2_I_bTxpOLyKvMus02Zsvx85klGo0TdVj3rxpEE-_giEWWWh5o/s400-c/IGI.webp"
+    },
+    {
+      "id": "granny",
+      "name": "Granny",
+      "nameAr": "جراني",
+      "weight": "light",
+      "category": "رعب",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/11/granny-for-pc.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 2
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXGXNk51Znqh8ej2-mCvuFKw_i97lskixlbn2lTIMivM_gYO_F5MZjDnJ0OsK7hOIRKaRdbX-ijc9UFO2ai2tar04fjJraBCCod9f9vabdGYm6WwMLgMhlY45USOxc_3oks5rCvZ-CnA/s400-c/Granny.png"
+    },
+    {
+      "id": "blur",
+      "name": "Blur",
+      "nameAr": "بلور",
+      "weight": "light",
+      "category": "سباق",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/07/download-blur-game.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 22,
+        "storage": 6
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 25,
+        "cpuScore": 35,
+        "storage": 8
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbmBVAn73Vi4G0jXXAX4afhWX4gbE9tZGHRo9chKljv-xwGHeOua45XCrf0K-se48R5mpN8XdbA3QsPIeWO7kMUwDuPQRCSN9-LNK6LSyf-NL2eQLGWTC6wyZnk1j1rxbj04DUqhQWTfQ/s400-c/blur-logo.webp"
+    },
+    {
+      "id": "metal-slug",
+      "name": "Metal Slug",
+      "nameAr": "ميتال سلغ",
+      "weight": "light",
+      "category": "أركيد",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/08/metal-slug.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 4,
+        "cpuScore": 12,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 1,
+        "gpuScore": 10,
+        "cpuScore": 20,
+        "storage": 1
+      },
+      "baseFps": {
+        "min": 50,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-fVkRi2yT-PAf2mOC-vXp8UiLsapvrp3145m1Yn0W__5VQibcgp7jFVki41PbQ5BuJJEKnt2FwKWYuUoOQ2XoRR8xw8UkfOicHygIdD_iaYGp0Kcf6wu7hvXaFlI9yOpmcj4mnhJQxCY/s400-c/Metal-Slug.webp"
+    },
+    {
+      "id": "medal-of-honor-2010",
+      "name": "Medal of Honor 2010",
+      "nameAr": "ميدل أوف هونر 2010",
+      "weight": "medium",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/03/medal-of-honor-2010.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 18,
+        "cpuScore": 28,
+        "storage": 8
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 32,
+        "cpuScore": 42,
+        "storage": 12
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0tc-lkKE6nBWhb18gbWZ1BfA71oDpuZgZz74eEd23FX5aiJA_MsFv6Ay84E6bTw0XcHzQTUcARNimV45N6LICjDAxkfYamQc-JMUOOGMjhLClOMVkcqhNzk9T8qWWFFM0obR010rOQ/s400-c/Medal-of-Honor-2010.jpg"
+    },
+    {
+      "id": "tekken-3",
+      "name": "Tekken 3",
+      "nameAr": "تيكن 3",
+      "weight": "light",
+      "category": "قتال",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/11/tekken-3-for-pc.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 4,
+        "cpuScore": 12,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 1,
+        "gpuScore": 10,
+        "cpuScore": 20,
+        "storage": 1
+      },
+      "baseFps": {
+        "min": 50,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEima4cIEX32jO4sO6ApBDVEXRpbqxZUZTZC1XCOkyOnZxnwbalQdJJYdNd-HyHokux9aOPawJuVOZPWmt84VU1SxhKkH1dBzoKtjQcY6JtPAfhiKqj2z_jWlWjKdspGOphca6HI9vsHXw/s400-c/Tekken-3.jpg"
+    },
+    {
+      "id": "tekken-6",
+      "name": "Tekken 6",
+      "nameAr": "تيكن 6",
+      "weight": "light",
+      "category": "قتال",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/tekken-6-for-pc.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 10,
+        "cpuScore": 20,
+        "storage": 4
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 20,
+        "cpuScore": 32,
+        "storage": 6
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgo3DM0OebC0aDZO2Gqvb5TjrjA9ZMQ0Czy49FVlaMzP_wfw6743xNzGMmB0klJYtBGL8oUk1Eoq-ffnPly4W1O907qqutiLSKiDdxDzGQP4-YavzWZcaDsBtPBYlmHV6CLuh6h_B0EhviENI_ztH6R_fXivFvsTAEDOaEt_kSH4X0Fm9hYuYcEKQ=s72-c-e365-rw"
+    },
+    {
+      "id": "god-of-war-1",
+      "name": "God of War 1",
+      "nameAr": "إله الحرب 1",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/07/god-of-war-1-pc.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 3
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 4
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3cq9ilZ-W2S5ZBW165QWEdR4pdP9rT_CmJjWD93A34BJhHxDhyphenhyphenHO23eY6FzrMmdRPb9DfivdVykikmh0NhbbdMljVOxuH2siDCFVEhhNlYylrjomLXC1fdlzcn66abU8LsZ9NK02W-w/s400-c/God-Of-War-1.jpg"
+    },
+    {
+      "id": "god-of-war-2",
+      "name": "God of War 2",
+      "nameAr": "إله الحرب 2",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/07/god-of-war-2-pc.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 10,
+        "cpuScore": 20,
+        "storage": 4
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 18,
+        "cpuScore": 30,
+        "storage": 5
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqrx4cyq1Da-6dtNogVmgv4_sj6Sxs5TM0MeyU1YDuijIYSzjTLVi9u6y4RRVeSXutOVAEO-Vb2yUNVqiSK2qQGKNSEoeUvRafiKb8n829cNg4tfD0kxr5c6qWpx7xe62BffgRW0H3CQ/s400-c/God-of-War-2.jpg"
+    },
+    {
+      "id": "spider-man-1",
+      "name": "Spider-Man 1",
+      "nameAr": "سبايدر مان 1",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/11/spider-man-1.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 5,
+        "cpuScore": 15,
+        "storage": 2
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 25,
+        "storage": 3
+      },
+      "baseFps": {
+        "min": 45,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijDcKcwTUJHVYS0U-HpROXTjIPL4P7ZTlCkFQ0H2yVaku3BZyZQXZY1GWGTVtMp6YkSnqc6U50pz87zVF1OHOxiFstKKb74nwBP43yXe0mcEuLd2beafX6XdQgLGY__wHwShDBiPdtNA/s400-c/Spider-Man-1.jpg"
+    },
+    {
+      "id": "spider-man-3",
+      "name": "Spider-Man 3",
+      "nameAr": "سبايدر مان 3",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/10/spider-man-3.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 3
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 4
+      },
+      "baseFps": {
+        "min": 42,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjmw-pG4i16V6IXXDyBxeMHNodUmup5bv7mpGRNiloS6hzjg0LIrfLRQP92RnqRtjD7S7mBoYr2dnBgtTUi8Pxg9qCOFcZDqR2-KJMOv_okxN4K6TMQk7KGV7Q53f7QJVPq6XJmafsBg/s400-c/Spider-Man-3.jpg"
+    },
+    {
+      "id": "lethal-company",
+      "name": "Lethal Company",
+      "nameAr": "ليثال كومباني",
+      "weight": "light",
+      "category": "بقاء",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/02/lethal-company.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 18,
+        "cpuScore": 30,
+        "storage": 2
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 35,
+        "cpuScore": 45,
+        "storage": 4
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGuY08ygNN9JBo-HymMHp5EF8E-4BB6m_BzHZFVV9aDEtGOUxxU23y3ydi0pzhh1Whtd2OaQh7d48WZTw07kmVLcsZ8YsU8UyN2fmZu6R3oslgZhMr2rGmtmRD2NZMLZoA1BalBL-GS1OaGFqMATkM6C1L8eQ1svNuBv4B3SIcbpVi2Xd5dgma_gCg/s400-c/Lethal-Company.webp"
+    },
+    {
+      "id": "astroneer",
+      "name": "ASTRONEER",
+      "nameAr": "أستونيير",
+      "weight": "medium",
+      "category": "مغامرات",
+      "downloadUrl": "https://www.downloadcomputergames.net/2026/02/astroneer.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 22,
+        "cpuScore": 35,
+        "storage": 4
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 40,
+        "cpuScore": 50,
+        "storage": 8
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJuhji5WsarWM31Fj9OmjLxUoOFVwg82XChyphenhyphenNjWrFXWCvyLJb6Oj9wVMMa7MAGW8f3ZfIGKNkpaggjp9WNxlwll6EVX-X_lPwX0tsRHQWxslJKgAD0j2lkSingiVrwPUquoczea-nlhubNqNOjcR624AOOU5lHpf_EF40WN5XpNaRSizaNmuk-Ltu3/s400-c/Astroneer.webp"
+    },
+    {
+      "id": "ultrakill",
+      "name": "ULTRAKILL",
+      "nameAr": "ألتراكيل",
+      "weight": "medium",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2026/04/ultrakill.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 25,
+        "cpuScore": 35,
+        "storage": 4
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 45,
+        "cpuScore": 55,
+        "storage": 8
+      },
+      "baseFps": {
+        "min": 60,
+        "rec": 120
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqd8ahKkIum2_0_Ilne6FUtFE7ewrFqcYjpWrkQVqCOZO3GZcrc7ezF0PcKTuOJOjwqcTZzr-Qxm0xUu0mr736LCctEKmM_4h46lq5aN0Ndxjh_sZ78OcNR2CJJtYdNh_vcfAMLAzfN1qgHxfT7ixvAump8Lt9mRpx9og7lR3S2GUWyxbkgLXvgYBZykE/s400-c/ULTRAKILL.webp"
+    },
+    {
+      "id": "hi-fi-rush",
+      "name": "Hi-Fi RUSH",
+      "nameAr": "هاي فاي راش",
+      "weight": "medium",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2026/06/hi-fi-rush.html",
+      "min": {
+        "ram": 8,
+        "gpuScore": 35,
+        "cpuScore": 45,
+        "storage": 20
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 55,
+        "cpuScore": 60,
+        "storage": 25
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2jyA-XomG6MKG0c22EOvvJHcPX1t4qF7KjE7k7D8vLBZ85x_GfKJ88yY0o2KZuS84WliiHczZZL_Q0Z98tHctCAEjP82rKINgKoYHhF5JTLVxsxqlPeLss3DZyv4CGkBjlgi_XZup30LE4SW12NdB7NMDg12YoLbND1Qbt5HbFK_BgT_Fi7nrAt4yIl0/s400-c/Hi-Fi-RUSH.webp"
+    },
+    {
+      "id": "sniper-elite-5",
+      "name": "Sniper Elite 5",
+      "nameAr": "سنايبر إيليت 5",
+      "weight": "heavy",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2026/07/sniper-elite-5.html",
+      "min": {
+        "ram": 8,
+        "gpuScore": 42,
+        "cpuScore": 50,
+        "storage": 70
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 65,
+        "cpuScore": 65,
+        "storage": 90
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXXdu-WmiVyu_SgaXfSJDkVu4OiATzoxxoOIttDFsdi3opYEV8hcSGzCpnyIoZ3BuTReZXexRK0d1DT5FTwIFZsFNY5DuO8ApF3LgCCLvqjz4ufHBpk5JcizJXLvx8FdEhKd2wwpL1gVvUqCWd__woIdVLs0XKAVBqXJKRRSqf9IWAtE8dPFisIlHdWcc/s400-c/Sniper-Elite-5.webp"
+    },
+    {
+      "id": "sniper-elite-3",
+      "name": "Sniper Elite 3",
+      "nameAr": "سنايبر إيليت 3",
+      "weight": "medium",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/09/sniper-elite-3-for-pc.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 38,
+        "storage": 15
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 45,
+        "cpuScore": 55,
+        "storage": 20
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUo-2DR2pU8sQLA22w8yhNOdxE3qOBsG1jf3ThBYzfTyEMjXbW_YzEYxy4_v3dQUYutFaJUTinTxhtEjb1vGHoZ5xvDktNEXkYWx4xOPD37y7yrWSIgXQo4k2i4_SdXQYoS4XmD_oUUw/s400-c/Sniper-Elite-3.jpg"
+    },
+    {
+      "id": "cs-source",
+      "name": "Counter-Strike Source",
+      "nameAr": "كاونتر سترايك سورس",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/04/counter-strike-source.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 10,
+        "cpuScore": 20,
+        "storage": 4
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 20,
+        "cpuScore": 32,
+        "storage": 6
+      },
+      "baseFps": {
+        "min": 60,
+        "rec": 120
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjknMnlLpy8MVLHA6tiBmD6tIyLrkVNucrE0fV2oSlDxv_EEVUmXupjnurf3UoVzNt8Cm5jN6SgUZsJc4kTLOounEP1ZAgxCzpX0YJtSEw2ieMuBx4OuXVVvk2iaaQ_UFAjghxhknyCBTiToCay706GLeBZwRPJ0x_TxLVKrR1PRpuBq--Zu-OhOxH2/s400-c/Counter-Strike-Source.jpg"
+    },
+    {
+      "id": "fifa-19",
+      "name": "FIFA 19",
+      "nameAr": "فيفا 19",
+      "weight": "medium",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/05/fifa-19-for-pc.html",
+      "min": {
+        "ram": 8,
+        "gpuScore": 32,
+        "cpuScore": 42,
+        "storage": 50
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 55,
+        "cpuScore": 62,
+        "storage": 55
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitQ5naoir8oEC02V1lXEQJCrDtzCdJdGLKF8aGrY-9mUyU6V-_aa5kXBnhfgyxv8lJE9OPnPE8LyeDY6_fVpYaYgH3wRpVfAwVZfLBYF2OcsChgJLvkphsOwOZPzqlJJKBWJIA9Jex4UCF3NNWPMsl_HjrvF6FRKfeF5Gvq3FsEjZsRK8V7nIKRg/s400-c/FIFA-19.jpg"
+    },
+    {
+      "id": "fifa-13",
+      "name": "FIFA 13",
+      "nameAr": "فيفا 13",
+      "weight": "light",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/02/fifa-13-for-pc.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 25,
+        "storage": 8
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 25,
+        "cpuScore": 38,
+        "storage": 10
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ5SvHRARasxF1_cdyzKuIjCL_x7u52UBaYxXxozhh0KCwl86g5mdBum1Y5nzcHvTbiwbiQtdZyJo8qqGN8Vu3035Tsx40w-I15VimNF0Aj-OICizwm3gX3QSeKHgHAsvvW9dBkq0tcSOiXt_ZlVMjO4QvIzgXNiyY01HvQwP-I9c2REAUachETA/s400-c/FIFA-2013.jpg"
+    },
+    {
+      "id": "fifa-2007",
+      "name": "FIFA 2007",
+      "nameAr": "فيفا 2007",
+      "weight": "light",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/08/download-fifa-2007.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 5,
+        "cpuScore": 15,
+        "storage": 2
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 25,
+        "storage": 3
+      },
+      "baseFps": {
+        "min": 45,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN1DFBgjzGiIvmBbpi_rBqY1c_cF31r5mJA4I4eRSePCTMy5Wz_whNM5eNkghbB8ZwJbnknbSnzEXhPTPkpwOtLCq2rpYqZ3fvexWyK3g6ZN1w7Yl3IStYXyqkYXvmLRxVuzKe46-Fhg/s400-c/FIFA-2007.jpg"
+    },
+    {
+      "id": "wwe-2k14",
+      "name": "WWE 2K14",
+      "nameAr": "WWE 2K14",
+      "weight": "medium",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/11/wwe-2k14.html",
+      "min": {
+        "ram": 4,
+        "gpuScore": 25,
+        "cpuScore": 35,
+        "storage": 20
+      },
+      "rec": {
+        "ram": 8,
+        "gpuScore": 42,
+        "cpuScore": 50,
+        "storage": 25
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEhKwEon3UJnBxoDQGz96HrUkHLXx6CRcwe_84bL9yx-QHNKMrOzz-mPkeA9AGDRVgsrfXK9Org7XQQSic4hVOPxIoO_Zy1gTnE3j7GNTDJRCjD12g0ND7yG1xA9c6Zue7yvLzypmatVSfVGQit-wS6nYZozP_mXvK8cdBh_6aWkyLzngcbCPQ6Mqg=s72-c-e365-rw"
+    },
+    {
+      "id": "wwe-2013",
+      "name": "WWE 13",
+      "nameAr": "WWE 2013",
+      "weight": "light",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/01/wwe-2013.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 10
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 40,
+        "storage": 12
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCqy-hWf738MvXS5hAvsVT7KIMgyUOKCjxm2wb02Jde9ziL2cy9eVv5ZXfq3p_v_VDARG9kaah4baxPHAahUsRvjnkAmTYrk7lkLFY8_5uGic6Yjq_k0ujhkVlOPWH8qebDjXWxDKp6nwbOziVoBYhg0SEC2kWK6Oj_Z1-IkucEJsQ_PccWQgnVQ/s400-c/wwe-13.jpg"
+    },
+    {
+      "id": "resident-evil-7",
+      "name": "Resident Evil 7",
+      "nameAr": "ريزدنت إيفل 7",
+      "weight": "medium",
+      "category": "رعب",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/01/resident-evil-7.html",
+      "min": {
+        "ram": 8,
+        "gpuScore": 35,
+        "cpuScore": 45,
+        "storage": 25
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 55,
+        "cpuScore": 60,
+        "storage": 30
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAqmrlPF4DgNSv8gRNj32jQCF8iqjBesucAPp4vaglE7zBWRO1wrkOJ--x2sEruP-TtegnoSCdePkIZdpZU0c5cfdraGW-gsKHdpcHrRnEetcWyL6xsEWvMVWgwHiG68YL74VYrP5dJu_M1dPS0rhOCYY8HKciKqfyawnRs0ebfDVgR7dTH9A2Uw/s400-c/Resident-Evil-7.jpg"
+    },
+    {
+      "id": "subway-surfers",
+      "name": "Subway Surfers",
+      "nameAr": "سابوي سورفرز",
+      "weight": "light",
+      "category": "أركيد",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/09/subway-surfers-for-pc.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 8,
+        "cpuScore": 18,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 2
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7CMluNFwcondVq8t_0if5c0lgsYpgPXBYxHrzRP6JBOZjofpinhgs0yb77ISD95KFVliM7wQcBhmGZ1IH4Mc5KpjQJzWseIxtTQg91onY_CKcyG2t9EZx3MMnmFvj6tEi3zL9eJlvg/s400-c/Subway-Surfers.jpg"
+    },
+    {
+      "id": "age-of-empires-1",
+      "name": "Age of Empires",
+      "nameAr": "عصر الإمبراطوريات 1",
+      "weight": "light",
+      "category": "استراتيجية",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/age-of-empires-1.html",
+      "min": {
+        "ram": 1,
+        "gpuScore": 5,
+        "cpuScore": 15,
+        "storage": 1
+      },
+      "rec": {
+        "ram": 2,
+        "gpuScore": 12,
+        "cpuScore": 25,
+        "storage": 2
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXdqJCUieZ6_rRj8hwM8IXAGOKU0rxjZZDPAYcYdWOWjPdTdWV2bDm7RHO0aRauIBzVgEeogiANGkBVkdy5lOjM3f7FYVNzzVZl6wyZPaZrUHjL0GooYPYf-KsgRn9IqZgDMK3w3m1JtCq94loIuw2MBIRWoxcqCEZL3yhuMr8QoRrB46kc20ong/s400-c/Age-of-Empires-1.jpg"
+    },
+    {
+      "id": "bioshock-2",
+      "name": "BioShock 2",
+      "nameAr": "بايو شوك 2",
+      "weight": "light",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/2024/06/bioshock-2.html",
+      "min": {
+        "ram": 2,
+        "gpuScore": 15,
+        "cpuScore": 28,
+        "storage": 8
+      },
+      "rec": {
+        "ram": 4,
+        "gpuScore": 28,
+        "cpuScore": 40,
+        "storage": 10
+      },
+      "baseFps": {
+        "min": 35,
+        "rec": 55
+      },
+      "imageUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicVB5VZOVghyphenhyphenqdFJcjsQ_Axa689ELT_RVMrW64CiENzprNFdiDZ7ZyX7y-h6_FB5ENgDADYncSMLJr1oSD2htQ7SNHw2flEPZ1PKtllVk6dz0SiVNNlXeD1bH5d1hr2TGue_5Yzg4XgisGwH8j5KxQDI8RiTJxFKmniDDKC7nrkHm-cKePlXa921B-/s400-c/BioShock-2.webp"
     }
   ]
 }
