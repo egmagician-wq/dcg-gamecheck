@@ -296,7 +296,7 @@
       "nameAr": "بيس 5",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%205",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 4,
@@ -320,7 +320,7 @@
       "nameAr": "إي فوتبول 2024",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=eFootball%202024",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -444,7 +444,7 @@
       "nameAr": "فيفا 12",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2012",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -468,7 +468,7 @@
       "nameAr": "فيفا 10",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2010",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -492,7 +492,7 @@
       "nameAr": "إي إيه إف سي 25",
       "weight": "heavy",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=EA%20Sports%20FC%2025",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -822,7 +822,7 @@
       "nameAr": "كول أوف ديوتي AW",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Advanced%20Warfare",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 38,
@@ -846,7 +846,7 @@
       "nameAr": "كول أوف ديوتي جوستس",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Ghosts",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -1095,7 +1095,7 @@
       "nameAr": "WWE 2K16",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=WWE%202K16",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1219,7 +1219,7 @@
       "nameAr": "سايبرپانك 2077",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Cyberpunk%202077",
+      "downloadUrl": "",
       "min": {
         "ram": 12,
         "gpuScore": 55,
@@ -1267,7 +1267,7 @@
       "nameAr": "بالدورز غيت 3",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Baldur's%20Gate%203",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1291,7 +1291,7 @@
       "nameAr": "هوغوورتس ليجاسي",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hogwarts%20Legacy",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1315,7 +1315,7 @@
       "nameAr": "ذا لاست أوف أس 1",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Last%20of%20Us%20Part%20I",
+      "downloadUrl": "",
       "min": {
         "ram": 16,
         "gpuScore": 55,
@@ -1339,7 +1339,7 @@
       "nameAr": "بالوورلد",
       "weight": "heavy",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Palworld",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -1363,7 +1363,7 @@
       "nameAr": "هيلدايفرز 2",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=HELLDIVERS%202",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1387,7 +1387,7 @@
       "nameAr": "مارفل رايفلز",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Marvel%20Rivals",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -1411,7 +1411,7 @@
       "nameAr": "سبايدر مان ريماسترد",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Marvel's%20Spider-Man%20Remastered",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1460,7 +1460,7 @@
       "nameAr": "فالورانت",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=VALORANT",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1484,7 +1484,7 @@
       "nameAr": "كاونتر سترايك 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Counter-Strike%202",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 38,
@@ -1508,7 +1508,7 @@
       "nameAr": "كاونتر سترايك GO",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=CS%3AGO",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -1532,7 +1532,7 @@
       "nameAr": "ليغ أوف ليجندز",
       "weight": "light",
       "category": "MOBA",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=League%20of%20Legends",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -1556,7 +1556,7 @@
       "nameAr": "دوتا 2",
       "weight": "light",
       "category": "MOBA",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dota%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -1580,7 +1580,7 @@
       "nameAr": "جتا أونلاين",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=GTA%20Online",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 38,
@@ -1604,7 +1604,7 @@
       "nameAr": "ذا ويتشر 3",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Witcher%203",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -1628,7 +1628,7 @@
       "nameAr": "إلدن رينج",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Elden%20Ring",
+      "downloadUrl": "",
       "min": {
         "ram": 12,
         "gpuScore": 50,
@@ -1652,7 +1652,7 @@
       "nameAr": "إله الحرب",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=God%20of%20War",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1676,7 +1676,7 @@
       "nameAr": "ريد ديد 1",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Red%20Dead%20Redemption",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -1700,7 +1700,7 @@
       "nameAr": "سكايرم",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Skyrim",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1724,7 +1724,7 @@
       "nameAr": "فال آوت 4",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Fallout%204",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -1748,7 +1748,7 @@
       "nameAr": "فال آوت نيو فيجاس",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Fallout%20New%20Vegas",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -1772,7 +1772,7 @@
       "nameAr": "أساسنز كريد 2",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assassin's%20Creed%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -1796,7 +1796,7 @@
       "nameAr": "أساسنز كريد 3",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assassin's%20Creed%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1820,7 +1820,7 @@
       "nameAr": "أساسنز أوريجينز",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assassin's%20Creed%20Origins",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 45,
@@ -1844,7 +1844,7 @@
       "nameAr": "أساسنز أوديسي",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assassin's%20Creed%20Odyssey",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -1868,7 +1868,7 @@
       "nameAr": "باتمان أركام سيتي",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Batman%20Arkham%20City",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -1892,7 +1892,7 @@
       "nameAr": "باتمان أركام أسايلم",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Batman%20Arkham%20Asylum",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -1916,7 +1916,7 @@
       "nameAr": "فار كراي 3",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Far%20Cry%203",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -1940,7 +1940,7 @@
       "nameAr": "فار كراي 4",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Far%20Cry%204",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -1964,7 +1964,7 @@
       "nameAr": "فار كراي 5",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Far%20Cry%205",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 45,
@@ -1988,7 +1988,7 @@
       "nameAr": "واتش دوجز",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Watch%20Dogs",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -2012,7 +2012,7 @@
       "nameAr": "نيد فور سبيد موست وانتد",
       "weight": "light",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NFS%20Most%20Wanted%202005",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -2036,7 +2036,7 @@
       "nameAr": "نيد فور سبيد كربون",
       "weight": "light",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NFS%20Carbon",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 10,
@@ -2060,7 +2060,7 @@
       "nameAr": "نيد فور سبيد هوت بيرسوت",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NFS%20Hot%20Pursuit",
+      "downloadUrl": "",
       "min": {
         "ram": 3,
         "gpuScore": 25,
@@ -2084,7 +2084,7 @@
       "nameAr": "نيد فور سبيد باي باك",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NFS%20Payback",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -2108,7 +2108,7 @@
       "nameAr": "فورزا هورايزن 4",
       "weight": "heavy",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Forza%20Horizon%204",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 45,
@@ -2132,7 +2132,7 @@
       "nameAr": "فورزا هورايزن 5",
       "weight": "heavy",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Forza%20Horizon%205",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -2156,7 +2156,7 @@
       "nameAr": "روكت ليج",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Rocket%20League",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -2180,7 +2180,7 @@
       "nameAr": "امونج أس",
       "weight": "light",
       "category": "حفلات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Among%20Us",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 5,
@@ -2204,7 +2204,7 @@
       "nameAr": "تيراريا",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Terraria",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -2228,7 +2228,7 @@
       "nameAr": "هولّو نايت",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hollow%20Knight",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -2252,7 +2252,7 @@
       "nameAr": "كب هيد",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Cuphead",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -2276,7 +2276,7 @@
       "nameAr": "أندر تايل",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Undertale",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 5,
@@ -2300,7 +2300,7 @@
       "nameAr": "بورتال",
       "weight": "light",
       "category": "ألغاز",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Portal",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -2324,7 +2324,7 @@
       "nameAr": "بورتال 2",
       "weight": "light",
       "category": "ألغاز",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Portal%202",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2348,7 +2348,7 @@
       "nameAr": "ليفت 4 ديد 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Left%204%20Dead%202",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2372,7 +2372,7 @@
       "nameAr": "تيم فورتريس 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Team%20Fortress%202",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -2396,7 +2396,7 @@
       "nameAr": "دوم 2016",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=DOOM%202016",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -2420,7 +2420,7 @@
       "nameAr": "دوم إتيرنال",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=DOOM%20Eternal",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 48,
@@ -2444,7 +2444,7 @@
       "nameAr": "ريزدنت إيفل 4",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Resident%20Evil%204",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -2468,7 +2468,7 @@
       "nameAr": "ريزدنت إيفل 5",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Resident%20Evil%205",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -2492,7 +2492,7 @@
       "nameAr": "ريزدنت إيفل 6",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Resident%20Evil%206",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -2516,7 +2516,7 @@
       "nameAr": "ريزدنت إيفل 2 ريميك",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Resident%20Evil%202%20Remake",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -2540,7 +2540,7 @@
       "nameAr": "ديد باي دايلايت",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dead%20by%20Daylight",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -2564,7 +2564,7 @@
       "nameAr": "فاسموفوبيا",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Phasmophobia",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -2588,7 +2588,7 @@
       "nameAr": "ذا سيمز 4",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Sims%204",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -2612,7 +2612,7 @@
       "nameAr": "ذا سيمز 3",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Sims%203",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2636,7 +2636,7 @@
       "nameAr": "سيتيز سكايلانز",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Cities%20Skylines",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -2660,7 +2660,7 @@
       "nameAr": "يورو تراك 2",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Euro%20Truck%20Simulator%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -2684,7 +2684,7 @@
       "nameAr": "فارمنج سيميوليتر 19",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Farming%20Simulator%2019",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -2708,7 +2708,7 @@
       "nameAr": "عصر الإمبراطوريات 2",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Age%20of%20Empires%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -2732,7 +2732,7 @@
       "nameAr": "عصر الإمبراطوريات 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Age%20of%20Empires%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2756,7 +2756,7 @@
       "nameAr": "سيفيليزيشن 5",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Civilization%20V",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -2780,7 +2780,7 @@
       "nameAr": "سيفيليزيشن 6",
       "weight": "medium",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Civilization%20VI",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -2804,7 +2804,7 @@
       "nameAr": "ستاركرافت 2",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=StarCraft%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -2828,7 +2828,7 @@
       "nameAr": "وركرافت 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Warcraft%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -2852,7 +2852,7 @@
       "nameAr": "ديابلو 2",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Diablo%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -2876,7 +2876,7 @@
       "nameAr": "ديابلو 3",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Diablo%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -2900,7 +2900,7 @@
       "nameAr": "وورلد أوف ووركرافت كلاسيك",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=World%20of%20Warcraft%20Classic",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -2924,7 +2924,7 @@
       "nameAr": "جينشن إمباكت",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Genshin%20Impact",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -2948,7 +2948,7 @@
       "nameAr": "ببجي",
       "weight": "heavy",
       "category": "باتل رويال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=PUBG",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -2972,7 +2972,7 @@
       "nameAr": "أبيكس ليجندز",
       "weight": "medium",
       "category": "باتل رويال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Apex%20Legends",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 38,
@@ -2996,7 +2996,7 @@
       "nameAr": "واردزون",
       "weight": "heavy",
       "category": "باتل رويال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Warzone",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 45,
@@ -3020,7 +3020,7 @@
       "nameAr": "أوفرواتش 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Overwatch%202",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 32,
@@ -3044,7 +3044,7 @@
       "nameAr": "رينبو سكس",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Rainbow%20Six%20Siege",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 32,
@@ -3068,7 +3068,7 @@
       "nameAr": "باتلفيلد 1",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Battlefield%201",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3092,7 +3092,7 @@
       "nameAr": "باتلفيلد 4",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Battlefield%204",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -3141,7 +3141,7 @@
       "nameAr": "مافيا 2",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mafia%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3165,7 +3165,7 @@
       "nameAr": "مافيا ريميك",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mafia%20Definitive%20Edition",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3189,7 +3189,7 @@
       "nameAr": "سليبينج دوجز",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Sleeping%20Dogs",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3238,7 +3238,7 @@
       "nameAr": "بولي",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Bully%20Scholarship%20Edition",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -3262,7 +3262,7 @@
       "nameAr": "ساينتس رو 3",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Saints%20Row%20The%20Third",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3286,7 +3286,7 @@
       "nameAr": "جاست كوز 2",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Just%20Cause%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3310,7 +3310,7 @@
       "nameAr": "جاست كوز 3",
       "weight": "heavy",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Just%20Cause%203",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3334,7 +3334,7 @@
       "nameAr": "هتمان",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hitman%20Blood%20Money",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -3358,7 +3358,7 @@
       "nameAr": "هتمان 2016",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hitman%202016",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -3382,7 +3382,7 @@
       "nameAr": "ميترو 2033",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Metro%202033",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3406,7 +3406,7 @@
       "nameAr": "ميترو لاست لايت",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Metro%20Last%20Light",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3430,7 +3430,7 @@
       "nameAr": "كرايسس",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Crysis",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -3454,7 +3454,7 @@
       "nameAr": "كرايسس 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Crysis%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -3478,7 +3478,7 @@
       "nameAr": "بايو شوك",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=BioShock",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -3502,7 +3502,7 @@
       "nameAr": "بايو شوك إنفينيت",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=BioShock%20Infinite",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -3526,7 +3526,7 @@
       "nameAr": "بوردرلاندز 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Borderlands%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3550,7 +3550,7 @@
       "nameAr": "ديشاهونرد",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dishonored",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3574,7 +3574,7 @@
       "nameAr": "بري",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Prey",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 38,
@@ -3598,7 +3598,7 @@
       "nameAr": "ديوس إكس",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Deus%20Ex%20Human%20Revolution",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3622,7 +3622,7 @@
       "nameAr": "ماس إفكت 2",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mass%20Effect%202",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -3646,7 +3646,7 @@
       "nameAr": "ماس إفكت 3",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mass%20Effect%203",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3670,7 +3670,7 @@
       "nameAr": "دراجون إيج",
       "weight": "light",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dragon%20Age%20Origins",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -3694,7 +3694,7 @@
       "nameAr": "دارك سولز",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dark%20Souls%20Prepare%20to%20Die",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3718,7 +3718,7 @@
       "nameAr": "دارك سولز 3",
       "weight": "medium",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dark%20Souls%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 35,
@@ -3742,7 +3742,7 @@
       "nameAr": "سيكيرو",
       "weight": "heavy",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Sekiro%20Shadows%20Die%20Twice",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3766,7 +3766,7 @@
       "nameAr": "مورتال كومبات 9",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mortal%20Kombat%209",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -3790,7 +3790,7 @@
       "nameAr": "مورتال كومبات X",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mortal%20Kombat%20X",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -3814,7 +3814,7 @@
       "nameAr": "مورتال كومبات 11",
       "weight": "heavy",
       "category": "قتال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Mortal%20Kombat%2011",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -3838,7 +3838,7 @@
       "nameAr": "تيكن 7",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Tekken%207",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 32,
@@ -3862,7 +3862,7 @@
       "nameAr": "استريت فايتر 5",
       "weight": "medium",
       "category": "قتال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Street%20Fighter%20V",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3886,7 +3886,7 @@
       "nameAr": "NBA 2K16",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NBA%202K16",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3910,7 +3910,7 @@
       "nameAr": "NBA 2K18",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=NBA%202K18",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -3984,7 +3984,7 @@
       "nameAr": "فوتبول مانجر 2021",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Football%20Manager%202021",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4008,7 +4008,7 @@
       "nameAr": "أسيتو كورسا",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assetto%20Corsa",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -4032,7 +4032,7 @@
       "nameAr": "ديرت رالي",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=DiRT%20Rally",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -4056,7 +4056,7 @@
       "nameAr": "فورمولا 1 2018",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=F1%202018",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -4080,7 +4080,7 @@
       "nameAr": "جريد 2",
       "weight": "light",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=GRID%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -4104,7 +4104,7 @@
       "nameAr": "بيرن آوت",
       "weight": "light",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Burnout%20Paradise",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -4128,7 +4128,7 @@
       "nameAr": "سونيك",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Sonic%20Generations",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -4152,7 +4152,7 @@
       "nameAr": "كراش بانديكوت",
       "weight": "medium",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Crash%20Bandicoot%20N%20Sane",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -4176,7 +4176,7 @@
       "nameAr": "ريمان",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Rayman%20Legends",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -4200,7 +4200,7 @@
       "nameAr": "أوري",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Ori%20and%20the%20Blind%20Forest",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -4224,7 +4224,7 @@
       "nameAr": "سيليست",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Celeste",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -4248,7 +4248,7 @@
       "nameAr": "هادس",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hades",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -4272,7 +4272,7 @@
       "nameAr": "ديد سيلز",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Dead%20Cells",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -4296,7 +4296,7 @@
       "nameAr": "باندينج أوف آيزاك",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Binding%20of%20Isaac%20Rebirth",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -4320,7 +4320,7 @@
       "nameAr": "سلاي ذا سباير",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Slay%20the%20Spire",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -4344,7 +4344,7 @@
       "nameAr": "فاكتموريو",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Factorio",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4368,7 +4368,7 @@
       "nameAr": "ريم وورلد",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=RimWorld",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4392,7 +4392,7 @@
       "nameAr": "دونت ستارف",
       "weight": "light",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Don't%20Starve",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -4416,7 +4416,7 @@
       "nameAr": "سابناوتيكا",
       "weight": "medium",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Subnautica",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -4440,7 +4440,7 @@
       "nameAr": "رافت",
       "weight": "light",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Raft",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -4464,7 +4464,7 @@
       "nameAr": "فالهيم",
       "weight": "medium",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Valheim",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -4488,7 +4488,7 @@
       "nameAr": "سعد ديز تو داي",
       "weight": "medium",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=7%20Days%20to%20Die",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -4512,7 +4512,7 @@
       "nameAr": "رست",
       "weight": "heavy",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Rust",
+      "downloadUrl": "",
       "min": {
         "ram": 10,
         "gpuScore": 45,
@@ -4536,7 +4536,7 @@
       "nameAr": "آرك",
       "weight": "heavy",
       "category": "بقاء",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=ARK%20Survival%20Evolved",
+      "downloadUrl": "",
       "min": {
         "ram": 12,
         "gpuScore": 48,
@@ -4560,7 +4560,7 @@
       "nameAr": "روبلوكس",
       "weight": "light",
       "category": "منصات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Roblox",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4584,7 +4584,7 @@
       "nameAr": "أوسو",
       "weight": "light",
       "category": "إيقاع",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=osu!",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 5,
@@ -4608,7 +4608,7 @@
       "nameAr": "في آر شات",
       "weight": "medium",
       "category": "اجتماعي",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=VRChat",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -4632,7 +4632,7 @@
       "nameAr": "جاري مود",
       "weight": "light",
       "category": "ساندبوكس",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Garry's%20Mod",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -4656,7 +4656,7 @@
       "nameAr": "بيبل بلاي جراوند",
       "weight": "light",
       "category": "ساندبوكس",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=People%20Playground",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -4680,7 +4680,7 @@
       "nameAr": "بيمنج درايف",
       "weight": "heavy",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=BeamNG.drive",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 40,
@@ -4704,7 +4704,7 @@
       "nameAr": "مد رانر",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Spintires%20MudRunner",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -4728,7 +4728,7 @@
       "nameAr": "سنو رانر",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=SnowRunner",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -4752,7 +4752,7 @@
       "nameAr": "تركيرز MP",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=TruckersMP",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -4776,7 +4776,7 @@
       "nameAr": "محاكي الطيران X",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Microsoft%20Flight%20Simulator%20X",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -4800,7 +4800,7 @@
       "nameAr": "محاكي القطارات",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Train%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -4824,7 +4824,7 @@
       "nameAr": "سبيس إنجينيرز",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Space%20Engineers",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -4848,7 +4848,7 @@
       "nameAr": "كيربال",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Kerbal%20Space%20Program",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 15,
@@ -4872,7 +4872,7 @@
       "nameAr": "بلانيت كوستر",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Planet%20Coaster",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -4896,7 +4896,7 @@
       "nameAr": "رولر كوستر تايكون 2",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=RollerCoaster%20Tycoon%202",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -4920,7 +4920,7 @@
       "nameAr": "زو تايكون 2",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Zoo%20Tycoon%202",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -4944,7 +4944,7 @@
       "nameAr": "بلاك أند وايت 2",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Black%20%26%20White%202",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 10,
@@ -4968,7 +4968,7 @@
       "nameAr": "سيم سيتي 4",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=SimCity%204",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -4992,7 +4992,7 @@
       "nameAr": "ثيم هوسبيتال",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Theme%20Hospital",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 4,
@@ -5016,7 +5016,7 @@
       "nameAr": "إمبرياليزم",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Imperialism%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 4,
@@ -5040,7 +5040,7 @@
       "nameAr": "هيروز 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Heroes%20of%20Might%20and%20Magic%20III",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 4,
@@ -5064,7 +5064,7 @@
       "nameAr": "هيروز 5",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Heroes%20of%20Might%20and%20Magic%20V",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 12,
@@ -5088,7 +5088,7 @@
       "nameAr": "توتال وور شوجون 2",
       "weight": "medium",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Total%20War%20Shogun%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -5112,7 +5112,7 @@
       "nameAr": "توتال وور روما 2",
       "weight": "medium",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Total%20War%20Rome%20II",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -5136,7 +5136,7 @@
       "nameAr": "كمباني أوف هيروز",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Company%20of%20Heroes",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5160,7 +5160,7 @@
       "nameAr": "كوماندر كونكر 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Command%20%26%20Conquer%203",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5184,7 +5184,7 @@
       "nameAr": "ريد أليرت 2",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Red%20Alert%202",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -5208,7 +5208,7 @@
       "nameAr": "ريد أليرت 3",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Red%20Alert%203",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5232,7 +5232,7 @@
       "nameAr": "إمبايرز إيرث",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Empires%20Earth",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -5256,7 +5256,7 @@
       "nameAr": "رايز أوف نيشنز",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Rise%20of%20Nations",
+      "downloadUrl": "",
       "min": {
         "ram": 1,
         "gpuScore": 10,
@@ -5280,7 +5280,7 @@
       "nameAr": "آنو 1404",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Anno%201404",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5304,7 +5304,7 @@
       "nameAr": "ذا سيتلرز 7",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Settlers%207",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5328,7 +5328,7 @@
       "nameAr": "تروبيكو 4",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Tropico%204",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5352,7 +5352,7 @@
       "nameAr": "تروبيكو 5",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Tropico%205",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -5376,7 +5376,7 @@
       "nameAr": "بريزون أركيتكت",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Prison%20Architect",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 12,
@@ -5400,7 +5400,7 @@
       "nameAr": "تو بوينت هوسبيتال",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Two%20Point%20Hospital",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -5424,7 +5424,7 @@
       "nameAr": "بلانيت زو",
       "weight": "heavy",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Planet%20Zoo",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -5448,7 +5448,7 @@
       "nameAr": "محاكي الطيران",
       "weight": "heavy",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Microsoft%20Flight%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 16,
         "gpuScore": 55,
@@ -5472,7 +5472,7 @@
       "nameAr": "أسيتو كورسا كومبيتيزيوني",
       "weight": "heavy",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Assetto%20Corsa%20Competizione",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 42,
@@ -5496,7 +5496,7 @@
       "nameAr": "آي ريسنج",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=iRacing",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -5520,7 +5520,7 @@
       "nameAr": "آر فاكتور 2",
       "weight": "medium",
       "category": "سباق",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=rFactor%202",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -5544,7 +5544,7 @@
       "nameAr": "أمريكان تراك",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=American%20Truck%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -5568,7 +5568,7 @@
       "nameAr": "باس سيميوليتر",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Bus%20Simulator%2018",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 28,
@@ -5592,7 +5592,7 @@
       "nameAr": "كونستركشن سيم",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Construction%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -5616,7 +5616,7 @@
       "nameAr": "فايرفايتينج",
       "weight": "medium",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Firefighting%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 28,
@@ -5640,7 +5640,7 @@
       "nameAr": "هاوس فليبر",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=House%20Flipper",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -5664,7 +5664,7 @@
       "nameAr": "باور ووش",
       "weight": "light",
       "category": "محاكاة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=PowerWash%20Simulator",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -5688,7 +5688,7 @@
       "nameAr": "أونتيتلد جوس",
       "weight": "light",
       "category": "أركيد",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Untitled%20Goose%20Game",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -5712,7 +5712,7 @@
       "nameAr": "إيت تيكس تو",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=It%20Takes%20Two",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -5736,7 +5736,7 @@
       "nameAr": "أ وي آوت",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=A%20Way%20Out",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -5760,7 +5760,7 @@
       "nameAr": "براذرز",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Brothers%20A%20Tale%20of%20Two%20Sons",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5784,7 +5784,7 @@
       "nameAr": "ليمبو",
       "weight": "light",
       "category": "ألغاز",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=LIMBO",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -5808,7 +5808,7 @@
       "nameAr": "إنسايد",
       "weight": "light",
       "category": "ألغاز",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=INSIDE",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 10,
@@ -5832,7 +5832,7 @@
       "nameAr": "ليتل نايتمايرز",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Little%20Nightmares",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -5856,7 +5856,7 @@
       "nameAr": "أوتلاست",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Outlast",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -5880,7 +5880,7 @@
       "nameAr": "أوتلاست 2",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Outlast%202",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -5904,7 +5904,7 @@
       "nameAr": "أمنيسيا",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Amnesia%20The%20Dark%20Descent",
+      "downloadUrl": "",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -5928,7 +5928,7 @@
       "nameAr": "لايرز أوف فير",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Layers%20of%20Fear",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 20,
@@ -5952,7 +5952,7 @@
       "nameAr": "فيزاج",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Visage",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -5976,7 +5976,7 @@
       "nameAr": "Alien Isolation",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Alien%20Isolation",
+      "downloadUrl": "",
       "min": {
         "ram": 6,
         "gpuScore": 32,
@@ -6000,7 +6000,7 @@
       "nameAr": "سوما",
       "weight": "light",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=SOMA",
+      "downloadUrl": "",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -6024,7 +6024,7 @@
       "nameAr": "أوبزرفر",
       "weight": "medium",
       "category": "رعب",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Observer",
+      "downloadUrl": "",
       "min": {
         "ram": 8,
         "gpuScore": 32,
