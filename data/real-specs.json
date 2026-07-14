@@ -1,0 +1,83 @@
+{
+  "_comment": "المتطلبات الرسمية (أسماء عتاد حقيقية) لتوليد محتوى SEO — المفتاح هو id اللعبة في game-requirements.json. المصدر: المتطلبات الرسمية من الناشر/Steam.",
+  "gta-v": {
+    "publisher": "Rockstar Games",
+    "year": 2015,
+    "kwVariants": ["جتا 5", "جاتا 5", "قراند 5", "GTA V", "GTA 5"],
+    "min": { "os": "Windows 7 64-bit (SP1)", "cpu": "Intel Core 2 Quad Q6600 بتردد 2.4GHz أو AMD Phenom 9850 بتردد 2.5GHz", "gpu": "NVIDIA GeForce 9800 GT بذاكرة 1GB أو AMD Radeon HD 4870 بذاكرة 1GB", "ram": "4 GB", "storage": "72 GB", "dx": "DirectX 10" },
+    "rec": { "os": "Windows 10 64-bit", "cpu": "Intel Core i5-3470 بتردد 3.2GHz أو AMD FX-8350 بتردد 4GHz", "gpu": "NVIDIA GeForce GTX 660 بذاكرة 2GB أو AMD Radeon HD 7870 بذاكرة 2GB", "ram": "8 GB", "storage": "72 GB", "dx": "DirectX 11" },
+    "notes": "النسخة المحسّنة GTA V Enhanced (2025) متطلباتها أعلى بكثير — الجدول هنا للنسخة الكلاسيكية الأشهر."
+  },
+  "gta-sa": {
+    "publisher": "Rockstar Games",
+    "year": 2005,
+    "kwVariants": ["جتا سان أندرياس", "جاتا سان اندرس", "GTA San Andreas", "سان أندرس"],
+    "min": { "os": "Windows XP / 2000", "cpu": "Intel Pentium III بتردد 1GHz أو AMD Athlon بنفس التردد", "gpu": "كرت شاشة 64MB متوافق مع DirectX 9 (مثل GeForce 3)", "ram": "256 MB", "storage": "3.6 GB", "dx": "DirectX 9" },
+    "rec": { "os": "Windows XP أو أحدث", "cpu": "Intel Pentium 4 أو AMD Athlon XP بتردد 1.6GHz+", "gpu": "كرت شاشة 128MB (مثل GeForce 6 Series)", "ram": "384 MB", "storage": "4.7 GB", "dx": "DirectX 9" },
+    "notes": "لعبة قديمة تعمل على أي جهاز حديث تقريباً — حتى الأجهزة المكتبية بكروت الشاشة المدمجة."
+  },
+  "pes-2018": {
+    "publisher": "Konami",
+    "year": 2017,
+    "kwVariants": ["بيس 2018", "بيس 18", "PES 2018", "بي إي إس 2018"],
+    "min": { "os": "Windows 7 SP1 64-bit", "cpu": "Intel Core i3-530 بتردد 2.93GHz أو AMD Phenom II X4 925", "gpu": "NVIDIA GeForce GTX 560 أو AMD Radeon HD 7770", "ram": "4 GB", "storage": "30 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10 64-bit", "cpu": "Intel Core i5-3470 بتردد 3.2GHz أو AMD FX-4350", "gpu": "NVIDIA GeForce GTX 760 أو AMD Radeon R9 270X", "ram": "8 GB", "storage": "30 GB", "dx": "DirectX 11" },
+    "notes": "من أكثر ألعاب كرة القدم توازناً بين الجرافيك والمتطلبات — تعمل بإعدادات منخفضة على كروت أضعف من الحد الأدنى الرسمي."
+  },
+  "pes-2021": {
+    "publisher": "Konami",
+    "year": 2020,
+    "kwVariants": ["بيس 2021", "بيس 21", "PES 2021", "إي فوتبول بيس 2021"],
+    "min": { "os": "Windows 8.1 / 10 64-bit", "cpu": "Intel Core i5-3470 أو AMD FX-4350", "gpu": "NVIDIA GeForce GTX 670 أو AMD Radeon HD 7870", "ram": "8 GB", "storage": "40 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10 64-bit", "cpu": "Intel Core i7-3770 أو AMD FX-8350", "gpu": "NVIDIA GeForce GTX 760 أو AMD Radeon R9 270X", "ram": "8 GB", "storage": "40 GB", "dx": "DirectX 11" },
+    "notes": "eFootball PES 2021 Season Update هو آخر إصدار بمحرك Fox Engine قبل التحول لـ eFootball المجانية."
+  },
+  "pes-2013": {
+    "publisher": "Konami",
+    "year": 2012,
+    "kwVariants": ["بيس 2013", "بيس 13", "PES 2013", "بيس 2013 للأجهزة الضعيفة"],
+    "min": { "os": "Windows XP SP3 / Vista / 7", "cpu": "Intel Pentium 4 بتردد 2.4GHz", "gpu": "NVIDIA GeForce 6600 أو ATI Radeon X1300 بذاكرة 128MB", "ram": "1 GB", "storage": "8 GB", "dx": "DirectX 9.0c" },
+    "rec": { "os": "Windows 7 أو أحدث", "cpu": "Intel Core 2 Duo بتردد 2.0GHz", "gpu": "NVIDIA GeForce 7900 أو ATI Radeon HD 2400 بذاكرة 512MB", "ram": "2 GB", "storage": "8 GB", "dx": "DirectX 9.0c" },
+    "notes": "الخيار الأول لأصحاب الأجهزة الضعيفة والمقاهي — تعمل على أي جهاز تقريباً حتى بدون كرت شاشة منفصل."
+  },
+  "fifa-18": {
+    "publisher": "EA Sports",
+    "year": 2017,
+    "kwVariants": ["فيفا 18", "FIFA 18", "فيفا 2018"],
+    "min": { "os": "Windows 7 / 8.1 / 10 64-bit", "cpu": "Intel Core i3-2100 بتردد 3.1GHz أو AMD Phenom II X4 965 بتردد 3.4GHz", "gpu": "NVIDIA GeForce GTX 460 بذاكرة 1GB أو AMD Radeon R7 260", "ram": "8 GB", "storage": "50 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10 64-bit", "cpu": "Intel Core i3-6300T أو AMD FX-8150 بتردد 3.6GHz", "gpu": "NVIDIA GeForce GTX 670 أو AMD Radeon R9 270X", "ram": "8 GB", "storage": "50 GB", "dx": "DirectX 12" },
+    "notes": "أول فيفا بمحرك Frostbite على الكمبيوتر — متطلباتها أعلى من فيفا 17 بشكل ملحوظ."
+  },
+  "minecraft": {
+    "publisher": "Mojang Studios",
+    "year": 2011,
+    "kwVariants": ["ماينكرافت", "ماين كرافت", "Minecraft", "ماينكرافت جافا"],
+    "min": { "os": "Windows 7 أو أحدث", "cpu": "Intel Core i3-3210 بتردد 3.2GHz أو AMD A8-7600 APU", "gpu": "Intel HD Graphics 4000 أو AMD Radeon R5 (بدعم OpenGL 4.4)", "ram": "4 GB", "storage": "4 GB", "dx": "OpenGL 4.4" },
+    "rec": { "os": "Windows 10 64-bit", "cpu": "Intel Core i5-4690 بتردد 3.5GHz أو AMD A10-7800 APU", "gpu": "NVIDIA GeForce GTX 750 أو AMD Radeon R7 260X", "ram": "8 GB", "storage": "4 GB (يفضَّل SSD)", "dx": "OpenGL 4.5" },
+    "notes": "نسخة Java أثقل على المعالج من نسخة Bedrock — لو جهازك ضعيف جرّب Bedrock أو خفّض مسافة الرؤية (Render Distance)."
+  },
+  "fortnite": {
+    "publisher": "Epic Games",
+    "year": 2017,
+    "kwVariants": ["فورتنايت", "فورت نايت", "Fortnite"],
+    "min": { "os": "Windows 10 64-bit", "cpu": "Intel Core i3-3225 بتردد 3.3GHz", "gpu": "Intel HD 4000 أو AMD Radeon Vega 8 (مدمج)", "ram": "8 GB", "storage": "40 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10/11 64-bit", "cpu": "Intel Core i5-7300U بتردد 3.5GHz أو AMD Ryzen 3 3300U", "gpu": "NVIDIA GeForce GTX 960 أو AMD Radeon R9 280 بذاكرة 2GB", "ram": "16 GB", "storage": "40 GB (SSD)", "dx": "DirectX 12" },
+    "notes": "لعبة أونلاين مجانية — وضع Performance Mode داخل اللعبة يخليها تشتغل على أجهزة أضعف بكثير من الحد الأدنى."
+  },
+  "pubg": {
+    "publisher": "KRAFTON",
+    "year": 2017,
+    "kwVariants": ["ببجي", "ببجي للكمبيوتر", "PUBG", "بابجي"],
+    "min": { "os": "Windows 10 64-bit", "cpu": "Intel Core i5-4430 أو AMD FX-6300", "gpu": "NVIDIA GeForce GTX 960 بذاكرة 2GB أو AMD Radeon R7 370 بذاكرة 2GB", "ram": "8 GB", "storage": "40 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10/11 64-bit", "cpu": "Intel Core i5-6600K أو AMD Ryzen 5 1600", "gpu": "NVIDIA GeForce GTX 1060 بذاكرة 3GB أو AMD Radeon RX 580 بذاكرة 4GB", "ram": "16 GB", "storage": "50 GB (SSD)", "dx": "DirectX 11" },
+    "notes": "ببجي PC أصبحت مجانية بالكامل منذ 2022 — نسخة الموبايل على المحاكيات متطلباتها أقل بكثير من النسخة الأصلية."
+  },
+  "valorant": {
+    "publisher": "Riot Games",
+    "year": 2020,
+    "kwVariants": ["فالورانت", "فالورنت", "VALORANT"],
+    "min": { "os": "Windows 10/11 64-bit", "cpu": "Intel Core 2 Duo E8400 أو AMD Athlon 200GE", "gpu": "Intel HD 4000 أو AMD Radeon R5 200 (لأداء 30 FPS)", "ram": "4 GB", "storage": "30 GB", "dx": "DirectX 11" },
+    "rec": { "os": "Windows 10/11 64-bit", "cpu": "Intel Core i3-4150 أو AMD Ryzen 3 1200", "gpu": "NVIDIA GeForce GT 730 أو AMD Radeon R7 240 (لأداء 60 FPS)", "ram": "8 GB", "storage": "30 GB", "dx": "DirectX 11" },
+    "notes": "من أخف ألعاب الشوتر الأونلاين — للوصول لـ 144 FPS تحتاج GTX 1050 Ti أو أعلى مع معالج i5-9400F أو ما يعادله. تتطلب تفعيل TPM 2.0 وSecure Boot على ويندوز 11."
+  }
+}
