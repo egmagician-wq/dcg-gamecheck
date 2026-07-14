@@ -94,7 +94,7 @@
       "nameAr": "بيس 2016",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202016",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/03/pro-evolution-soccer-2016.html",
       "min": {
         "ram": 4,
         "gpuScore": 18,
@@ -118,7 +118,7 @@
       "nameAr": "بيس 2015",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202015",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/03/download-pes-2015.html",
       "min": {
         "ram": 3,
         "gpuScore": 15,
@@ -142,7 +142,7 @@
       "nameAr": "بيس 2014",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202014",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/07/pro-evolution-soccer-2014.html",
       "min": {
         "ram": 2,
         "gpuScore": 12,
@@ -190,7 +190,7 @@
       "nameAr": "بيس 2012",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202012",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/10/pro-evolution-soccer-2012.html",
       "min": {
         "ram": 2,
         "gpuScore": 8,
@@ -214,7 +214,7 @@
       "nameAr": "بيس 2011",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202011",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/09/pro-evolution-soccer-2011.html",
       "min": {
         "ram": 1,
         "gpuScore": 6,
@@ -238,7 +238,7 @@
       "nameAr": "بيس 2010",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Pro%20Evolution%20Soccer%202010",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/08/pro-evolution-soccer-2010.html",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -334,7 +334,7 @@
       "nameAr": "فيفا 18",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2018",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/05/fifa-18-for-pc.html",
       "min": {
         "ram": 8,
         "gpuScore": 28,
@@ -358,7 +358,7 @@
       "nameAr": "فيفا 17",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2017",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/05/fifa-17-for-pc.html",
       "min": {
         "ram": 8,
         "gpuScore": 25,
@@ -382,7 +382,7 @@
       "nameAr": "فيفا 16",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2016",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/02/fifa-16-for-pc.html",
       "min": {
         "ram": 4,
         "gpuScore": 22,
@@ -406,7 +406,7 @@
       "nameAr": "فيفا 14",
       "weight": "light",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=FIFA%2014",
+      "downloadUrl": "https://www.downloadcomputergames.net/2023/02/fifa-14-for-pc.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -473,6 +473,30 @@
       }
     },
     {
+      "id": "ea-fc-25",
+      "name": "EA Sports FC 25",
+      "nameAr": "إي إيه إف سي 25",
+      "weight": "heavy",
+      "category": "رياضة",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=EA%20Sports%20FC%2025",
+      "min": {
+        "ram": 8,
+        "gpuScore": 40,
+        "cpuScore": 50,
+        "storage": 100
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 65,
+        "cpuScore": 65,
+        "storage": 100
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      }
+    },
+    {
       "id": "gta-v",
       "name": "GTA V",
       "nameAr": "جتا 5",
@@ -532,7 +556,7 @@
       "nameAr": "جتا فايس سيتي",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=GTA%20Vice%20City",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/02/download-gta-vice-city.html",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -556,7 +580,7 @@
       "nameAr": "جتا 3",
       "weight": "light",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=GTA%20III",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/02/download-gta-3.html",
       "min": {
         "ram": 1,
         "gpuScore": 4,
@@ -580,7 +604,7 @@
       "nameAr": "جتا 4",
       "weight": "medium",
       "category": "مغامرات",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=GTA%20IV",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/09/grand-theft-auto-iv.html",
       "min": {
         "ram": 4,
         "gpuScore": 25,
@@ -676,7 +700,7 @@
       "nameAr": "كول أوف ديوتي MW3",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Modern%20Warfare%203",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/06/call-of-duty-modern-warfare-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 30,
@@ -700,7 +724,7 @@
       "nameAr": "كول أوف ديوتي بلاك أوبس",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Black%20Ops",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/05/call-of-duty-black-ops-1.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -724,7 +748,7 @@
       "nameAr": "بلاك أوبس 2",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20Black%20Ops%202",
+      "downloadUrl": "https://www.downloadcomputergames.net/2026/01/call-of-duty-black-ops-ii.html",
       "min": {
         "ram": 4,
         "gpuScore": 32,
@@ -748,7 +772,7 @@
       "nameAr": "كول أوف ديوتي الحرب العالمية",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%20World%20at%20War",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/04/call-of-duty-world-at-war.html",
       "min": {
         "ram": 2,
         "gpuScore": 18,
@@ -820,7 +844,7 @@
       "nameAr": "كول أوف ديوتي 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty%202",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/03/call-of-duty-2.html",
       "min": {
         "ram": 1,
         "gpuScore": 10,
@@ -844,7 +868,7 @@
       "nameAr": "كول أوف ديوتي 1",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Call%20of%20Duty",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/06/call-of-duty-1.html",
       "min": {
         "ram": 1,
         "gpuScore": 8,
@@ -1084,7 +1108,7 @@
       "nameAr": "هاف لايف 2",
       "weight": "light",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Half-Life%202",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/08/half-life-2.html",
       "min": {
         "ram": 2,
         "gpuScore": 15,
@@ -1132,7 +1156,7 @@
       "nameAr": "صلاح الدين",
       "weight": "light",
       "category": "استراتيجية",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Stronghold%20Crusader",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/11/stronghold-crusader-v1-for-pc.html",
       "min": {
         "ram": 1,
         "gpuScore": 5,
@@ -1156,7 +1180,7 @@
       "nameAr": "سايبرپانك 2077",
       "weight": "heavy",
       "category": "RPG",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=cyberpunk+2077",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Cyberpunk%202077",
       "min": {
         "ram": 12,
         "gpuScore": 55,
@@ -1199,12 +1223,180 @@
       }
     },
     {
+      "id": "baldurs-gate-3",
+      "name": "Baldur's Gate 3",
+      "nameAr": "بالدورز غيت 3",
+      "weight": "heavy",
+      "category": "RPG",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Baldur's%20Gate%203",
+      "min": {
+        "ram": 8,
+        "gpuScore": 48,
+        "cpuScore": 55,
+        "storage": 150
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 72,
+        "cpuScore": 70,
+        "storage": 150
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      }
+    },
+    {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "nameAr": "هوغوورتس ليجاسي",
+      "weight": "heavy",
+      "category": "مغامرات",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Hogwarts%20Legacy",
+      "min": {
+        "ram": 8,
+        "gpuScore": 48,
+        "cpuScore": 50,
+        "storage": 85
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 72,
+        "cpuScore": 65,
+        "storage": 85
+      },
+      "baseFps": {
+        "min": 28,
+        "rec": 55
+      }
+    },
+    {
+      "id": "the-last-of-us-1",
+      "name": "The Last of Us Part I",
+      "nameAr": "ذا لاست أوف أس 1",
+      "weight": "heavy",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=The%20Last%20of%20Us%20Part%20I",
+      "min": {
+        "ram": 16,
+        "gpuScore": 55,
+        "cpuScore": 58,
+        "storage": 100
+      },
+      "rec": {
+        "ram": 32,
+        "gpuScore": 78,
+        "cpuScore": 72,
+        "storage": 100
+      },
+      "baseFps": {
+        "min": 25,
+        "rec": 50
+      }
+    },
+    {
+      "id": "palworld",
+      "name": "Palworld",
+      "nameAr": "بالوورلد",
+      "weight": "heavy",
+      "category": "بقاء",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Palworld",
+      "min": {
+        "ram": 8,
+        "gpuScore": 42,
+        "cpuScore": 48,
+        "storage": 40
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 68,
+        "cpuScore": 62,
+        "storage": 50
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      }
+    },
+    {
+      "id": "helldivers-2",
+      "name": "HELLDIVERS 2",
+      "nameAr": "هيلدايفرز 2",
+      "weight": "heavy",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=HELLDIVERS%202",
+      "min": {
+        "ram": 8,
+        "gpuScore": 48,
+        "cpuScore": 55,
+        "storage": 100
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 72,
+        "cpuScore": 70,
+        "storage": 100
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      }
+    },
+    {
+      "id": "marvel-rivals",
+      "name": "Marvel Rivals",
+      "nameAr": "مارفل رايفلز",
+      "weight": "heavy",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Marvel%20Rivals",
+      "min": {
+        "ram": 8,
+        "gpuScore": 42,
+        "cpuScore": 50,
+        "storage": 50
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 68,
+        "cpuScore": 65,
+        "storage": 60
+      },
+      "baseFps": {
+        "min": 40,
+        "rec": 60
+      }
+    },
+    {
+      "id": "spider-man-remastered",
+      "name": "Marvel's Spider-Man Remastered",
+      "nameAr": "سبايدر مان ريماسترد",
+      "weight": "heavy",
+      "category": "أكشن",
+      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Marvel's%20Spider-Man%20Remastered",
+      "min": {
+        "ram": 8,
+        "gpuScore": 48,
+        "cpuScore": 55,
+        "storage": 75
+      },
+      "rec": {
+        "ram": 16,
+        "gpuScore": 72,
+        "cpuScore": 70,
+        "storage": 75
+      },
+      "baseFps": {
+        "min": 30,
+        "rec": 60
+      }
+    },
+    {
       "id": "fortnite",
       "name": "Fortnite",
       "nameAr": "فورتنايت",
       "weight": "medium",
       "category": "باتل رويال",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Fortnite",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/04/fortnite-battle-royale.html",
       "min": {
         "ram": 8,
         "gpuScore": 35,
@@ -2884,7 +3076,7 @@
       "nameAr": "باتلفيلد 3",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Battlefield%203",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/12/battlefield-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -2980,7 +3172,7 @@
       "nameAr": "ماكس باين 3",
       "weight": "medium",
       "category": "أكشن",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=Max%20Payne%203",
+      "downloadUrl": "https://www.downloadcomputergames.net/2022/10/max-payne-3.html",
       "min": {
         "ram": 4,
         "gpuScore": 28,
@@ -3700,7 +3892,7 @@
       "nameAr": "بيس 2020",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=eFootball%20PES%202020",
+      "downloadUrl": "https://www.downloadcomputergames.net/2020/10/download-pes-2020-for-pc.html",
       "min": {
         "ram": 8,
         "gpuScore": 32,
@@ -3724,7 +3916,7 @@
       "nameAr": "بيس 2021",
       "weight": "medium",
       "category": "رياضة",
-      "downloadUrl": "https://www.downloadcomputergames.net/search?q=eFootball%20PES%202021",
+      "downloadUrl": "https://www.downloadcomputergames.net/2021/10/download-pes-2021-pc.html",
       "min": {
         "ram": 8,
         "gpuScore": 35,
