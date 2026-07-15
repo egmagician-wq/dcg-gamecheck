@@ -107,8 +107,8 @@ $rows</tbody>
 "@
 }
 
-# ---------- الأسئلة الشائعة ----------
-function New-Faq($g, $rs) {
+# ---------- بناء قائمة الأسئلة الشائعة ----------
+function Get-FaqItems($g, $rs) {
     $nameAr = $g.nameAr
     $faq = @()
 
@@ -153,20 +153,36 @@ function New-Faq($g, $rs) {
         a = "استخدم أداة GameCheck المجانية على موقعنا — تفحص مواصفات جهازك تلقائياً من المتصفح وتقارنها بمتطلبات $nameAr وتعطيك نتيجة من 100 مع تقدير FPS."
     }
 
-    # HTML
-    $html = "<h2>أسئلة شائعة عن متطلبات $(Escape-Html $nameAr)</h2>`n"
-    foreach ($f in $faq) {
-        $html += "<h3>$(Escape-Html $f.q)</h3>`n<p>$(Escape-Html $f.a)</p>`n"
-    }
+    return $faq
+}
 
-    # JSON-LD (يدوي عشان النص العربي يفضل مقروءاً)
+# ---------- JSON-LD للأسئلة (يدوي عشان النص العربي يفضل مقروءاً) ----------
+function New-FaqSchema($faq) {
     $items = @()
     foreach ($f in $faq) {
         $items += '{"@type":"Question","name":"' + (Escape-Json $f.q) + '","acceptedAnswer":{"@type":"Answer","text":"' + (Escape-Json $f.a) + '"}}'
     }
-    $schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[' + ($items -join ',') + ']}</script>'
+    return '<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[' + ($items -join ',') + ']}</script>'
+}
 
-    return ($html + $schema)
+# ---------- الأسئلة الشائعة الكاملة (للمقال المستقل) ----------
+function New-Faq($g, $rs) {
+    $faq = Get-FaqItems $g $rs
+    $html = "<h2>أسئلة شائعة عن متطلبات $(Escape-Html $g.nameAr)</h2>`n"
+    foreach ($f in $faq) {
+        $html += "<h3>$(Escape-Html $f.q)</h3>`n<p>$(Escape-Html $f.a)</p>`n"
+    }
+    return ($html + (New-FaqSchema $faq))
+}
+
+# ---------- أسئلة مختصرة (لبلوك مقال التحميل) ----------
+function New-SectionFaq($g, $rs) {
+    $faq = @(Get-FaqItems $g $rs) | Select-Object -First 3
+    $html = ''
+    foreach ($f in $faq) {
+        $html += "<h3>$(Escape-Html $f.q)</h3>`n<p>$(Escape-Html $f.a)</p>`n"
+    }
+    return ($html + (New-FaqSchema $faq))
 }
 
 # ---------- روابط داخلية لألعاب من نفس التصنيف ----------
@@ -254,6 +270,7 @@ function New-Section($g, $rs) {
 <p>قبل التحميل، تأكد أن جهازك يلبي <strong>متطلبات تشغيل $nameAr</strong> — هذا الجدول يوضح الحد الأدنى والمواصفات الموصى بها رسمياً:</p>
 $(New-ReqTable $g $rs)
 $(New-CtaBlock $g)
+$(New-SectionFaq $g $rs)
 "@
 }
 
