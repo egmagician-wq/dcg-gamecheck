@@ -1,0 +1,116 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@main/assets/gamecheck.css">
+
+<div id="app" class="gamecheck-app gamecheck-in-page">
+  <header class="header" id="site-header">
+    <h1 id="page-title">هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب</h1>
+    <p class="tagline" id="page-tagline">فحص مجاني — نتيجة من 100 مع تقدير FPS</p>
+  </header>
+
+  <div class="gc-intro" id="gc-seo-intro">
+    <p>
+      قبل ما تحمّل أي لعبة كمبيوتر، اسأل السؤال الأهم: <strong>هل جهازي يشغّل اللعبة؟</strong>
+      أداة <strong>GameCheck</strong> تقارن المعالج وكرت الشاشة والرام ومساحة القرص
+      مع <strong>متطلبات التشغيل — الحد الأدنى والموصى به</strong>، وتعطيك <strong>نتيجة من 100</strong> مع
+      <strong>تقدير تقريبي للـ FPS</strong> — مجاناً وبالعربية، من المتصفح مباشرة بدون تثبيت برامج.
+    </p>
+    <p>
+      ابحث عن اللعبة بالأسفل، أو افتح رابط الفحص من مقال التحميل على الموقع
+      (مثل بيس وFIFA وجي تي أي وCall of Duty والألعاب العالمية الشائعة).
+      تقدر كمان تعدّل المواصفات يدوياً أو تلصق تقرير <strong>dxdiag</strong> للدقة الأعلى.
+    </p>
+  </div>
+
+  <div class="gc-search-wrap">
+    <input type="search" class="gc-search" id="gc-search" placeholder="ابحث عن لعبة… مثال: بيس 2018 أو GTA 5" autocomplete="off" aria-label="بحث عن لعبة" />
+    <div class="gc-search-dd" id="gc-search-dd" role="listbox"></div>
+  </div>
+
+  <div id="check-panel">
+    <section class="gc-panel" id="specs-panel">
+      <div id="detect-banner"></div>
+    </section>
+  </div>
+
+  <h3 id="gc-popular-heading" style="text-align:right;margin:0 0 8px"><u><span style="color:red;">فحص ألعاب شائعة:</span></u></h3>
+  <div class="gc-popular">
+    <a class="internal-link" href="?game=gta-v">هل جهازي يشغّل جتا 5؟</a>
+    <a class="internal-link" href="?game=cyberpunk-2077">هل جهازي يشغّل سايبرپانك؟</a>
+    <a class="internal-link" href="?game=red-dead-2">هل جهازي يشغّل ريد ديد 2؟</a>
+    <a class="internal-link" href="?game=valorant">هل جهازي يشغّل فالورانت؟</a>
+    <a class="internal-link" href="?game=pes-2018">هل جهازي يشغّل بيس 2018؟</a>
+    <a class="internal-link" href="?game=pes-2013">هل جهازي يشغّل بيس 2013؟</a>
+    <a class="internal-link" href="?game=minecraft">هل جهازي يشغّل ماينكرافت؟</a>
+    <a class="internal-link" href="?game=gta-sa">هل جهازي يشغّل جتا سان أندرياس؟</a>
+  </div>
+
+  <div id="gc-center">
+    <div id="gc-delayedText1">
+      <div class="progress-bar">
+        <div class="bar">
+          <div class="progress" id="gc-progress"></div>
+          <span id="gc-pct" class="gc-pct-num">0%</span>
+        </div>
+      </div>
+      <ul class="gc-scan-steps" id="gc-scan-steps" aria-live="polite"></ul>
+      <span id="gc-scan-msg" class="gc-scan-hint"></span>
+    </div>
+  </div>
+
+  <section class="gc-panel gc-result-wrap" id="result-panel"></section>
+
+  <details class="gc-panel gc-advanced" id="advanced-panel">
+    <summary>تخصيص الفحص (يدوي / dxdiag / لعبة أخرى)</summary>
+    <div class="gc-advanced-body">
+      <details class="gc-nested">
+        <summary>تعديل المواصفات يدوياً</summary>
+        <div class="form-grid">
+          <label>RAM<select id="spec-ram"><option value="2">2 GB</option><option value="4">4 GB</option><option value="8" selected>8 GB</option><option value="16">16 GB</option><option value="32">32 GB</option></select></label>
+          <label>كرت الشاشة<select id="spec-gpu"><option value="5">Intel / Basic</option><option value="12">Intel HD / UHD</option><option value="22">GTX 650 / HD 7750</option><option value="28">GT 1030 / GTX 750</option><option value="38">GTX 1050</option><option value="45">GTX 1050 Ti / RX 560</option><option value="58">GTX 1660 / RX 580</option><option value="72">GTX 3060 / RX 6600</option><option value="82">RTX 3060 Ti / RX 6700</option><option value="92">RTX 4070+</option></select></label>
+          <label>المعالج<select id="spec-cpu"><option value="25">ضعيف (Celeron / Core 2)</option><option value="45">متوسط (i3 / Ryzen 3)</option><option value="60">جيد (i5 / Ryzen 5)</option><option value="75">قوي (i7 / Ryzen 7)</option></select></label>
+          <label>مساحة فارغة (GB)<input type="number" id="spec-storage" value="" min="1" max="999" placeholder="مثال: 50" /></label>
+        </div>
+        <p class="hint">المساحة لا تُكشف تلقائياً من المتصفح — أدخلها من خصائص القرص (C:).</p>
+        <div class="btn-row">
+          <button type="button" id="btn-save-specs" class="btn-primary">حفظ المواصفات</button>
+          <button type="button" id="btn-detect" class="btn-secondary">فحص تلقائي</button>
+        </div>
+      </details>
+      <details class="gc-nested">
+        <summary>لصق تقرير dxdiag</summary>
+        <p class="hint">Win+R → اكتب <code>dxdiag</code> → Save All Information → الصق هنا</p>
+        <textarea id="dxdiag-input" rows="6" placeholder="الصق نص dxdiag هنا..."></textarea>
+        <button type="button" id="btn-parse-dxdiag" class="btn-primary">تحليل dxdiag</button>
+      </details>
+      <div class="gc-advanced-game" id="game-select-section">
+        <label for="game-select">اختر اللعبة للفحص</label>
+        <select id="game-select" class="game-select"></select>
+      </div>
+      <div class="btn-row gc-advanced-actions">
+        <button type="button" id="btn-my-games" class="btn-accent">أي ألعاب موقعنا تناسب جهازي؟</button>
+      </div>
+    </div>
+  </details>
+
+  <div id="my-games-panel"></div>
+
+  <section class="gc-faq" id="faq-section">
+    <h2 class="gc-faq-title">أسئلة شائعة</h2>
+    <div class="gc-faq-item">
+      <h3 class="gc-faq-q"><u><span>كيف أعرف إذا جهازي يشغّل لعبة معينة؟</span></u></h3>
+      <p class="gc-faq-a">افتح رابط الفحص من مقال التحميل أو ابحث عن اللعبة أعلاه — الأداة تقارن مواصفات جهازك بالحد الأدنى والموصى به وتعطيك نتيجة من 100 مع تقدير FPS.</p>
+    </div>
+    <div class="gc-faq-item">
+      <h3 class="gc-faq-q"><u><span>ما الفرق بين الحد الأدنى والموصى به؟</span></u></h3>
+      <p class="gc-faq-a">الحد الأدنى يعني اللعبة قد تعمل بإعدادات منخفضة. الموصى به يعني لعباً سلساً بدون تقطيع على إعدادات متوسطة أو عالية.</p>
+    </div>
+    <div class="gc-faq-item">
+      <h3 class="gc-faq-q"><u><span>كيف أقرأ مواصفات جهازي من dxdiag؟</span></u></h3>
+      <p class="gc-faq-a">اضغط Win+R واكتب dxdiag ثم Enter. من القائمة اختر Save All Information واحفظ الملف وافتحه بالمفكرة — انسخ النص والصقه في قسم «تخصيص الفحص» أعلاه.</p>
+    </div>
+    <div class="gc-faq-item">
+      <h3 class="gc-faq-q"><u><span>ماذا أفعل إذا جهازي أضعف من متطلبات اللعبة؟</span></u></h3>
+      <p class="gc-faq-a">جرّب خفض إعدادات الرسومات، أو اختر إصداراً أقدم من نفس السلسلة — الأداة تقترح بدائل وروابط «هل جهازي يشغّل…؟» أسفل النتيجة.</p>
+    </div>
+    <div id="faq-dynamic"></div>
+  </section>
+</div>
