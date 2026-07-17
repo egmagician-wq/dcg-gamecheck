@@ -10,7 +10,8 @@ import { buildGamePage, buildSitemap, esc } from "./render.js";
 const SITE = "https://www.downloadcomputergames.net";
 const SHELL_URL = SITE + "/p/shell.html";
 const MARKER = "GC_CONTENT";
-const APP_JS = "https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@main/assets/gamecheck.js";
+// نسخة مثبتة بترقيم commit — تتحدث مع كل نشر جديد (لا كاش قديم أبداً)
+const APP_JS = "https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@ef18884e72d794908f4dbc8134a5d15ad8c6819c/assets/gamecheck.js";
 const SHELL_TTL = 21600; // 6 ساعات
 
 const games = catalogData.games;
@@ -75,8 +76,9 @@ function htmlResponse(html, sMaxAge, status = 200) {
 
 function homeContent() {
   // نفس صفحة الأداة: الستايل والسكيما (page-top) + الهيكل (page-bottom) + الكود من CDN
+  // ملحوظة: قالب page-top يترك وسم <script> الأخير مفتوحاً (لأن نسخة بلوجر تحقن الكود داخله) — نقفله هنا
   const top = pageTop.replace(/^<!--[\s\S]*?-->/, "");
-  return top + `\n<script src="${APP_JS}" defer></script>\n` + pageBottom;
+  return top + `\n</script>\n<script src="${APP_JS}" defer></script>\n` + pageBottom;
 }
 
 // الأداة التفاعلية مدمجة داخل صفحة اللعبة: الفحص يبدأ تلقائياً للعبة الصفحة
@@ -88,7 +90,7 @@ function appBlock(g) {
     .replace(/<div class="gc-intro"[\s\S]*?<\/div>/, "")
     .replace(/<section class="gc-faq"[\s\S]*?<\/section>/, "")
     .replace("هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب", "هل جهازي يشغّل " + g.nameAr + "؟");
-  return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n<script src="${APP_JS}" defer></script>\n` + bottom;
+  return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n</script>\n<script src="${APP_JS}" defer></script>\n` + bottom;
 }
 
 async function getShell(ctx) {
