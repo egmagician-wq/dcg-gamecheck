@@ -57,7 +57,7 @@ export default {
       return htmlResponse(html, 60, 404);
     }
 
-    const page = buildGamePage(g, realSpecs[g.id] || null, gpuMap, games, { checkBase, site: SITE });
+    const page = buildGamePage(g, realSpecs[g.id] || null, gpuMap, games, { checkBase, site: SITE, appHtml: appBlock(g) });
     const html = await renderInShell(ctx, page);
     return htmlResponse(html, 1800);
   },
@@ -77,6 +77,18 @@ function homeContent() {
   // نفس صفحة الأداة: الستايل والسكيما (page-top) + الهيكل (page-bottom) + الكود من CDN
   const top = pageTop.replace(/^<!--[\s\S]*?-->/, "");
   return top + `\n<script src="${APP_JS}" defer></script>\n` + pageBottom;
+}
+
+// الأداة التفاعلية مدمجة داخل صفحة اللعبة: الفحص يبدأ تلقائياً للعبة الصفحة
+function appBlock(g) {
+  const top = pageTop
+    .replace(/^<!--[\s\S]*?-->/, "")
+    .replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, ""); // السكيما العامة للصفحة الرئيسية فقط
+  const bottom = pageBottom
+    .replace(/<div class="gc-intro"[\s\S]*?<\/div>/, "")
+    .replace(/<section class="gc-faq"[\s\S]*?<\/section>/, "")
+    .replace("هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب", "هل جهازي يشغّل " + g.nameAr + "؟");
+  return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n<script src="${APP_JS}" defer></script>\n` + bottom;
 }
 
 async function getShell(ctx) {

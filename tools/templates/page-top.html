@@ -141,4 +141,4 @@ html.gc-pending .gamecheck-app #gc-center{display:block!important}
 }
 </script>
 <script>
-(function(){if(/[?&](game|id)=/.test(location.search))document.documentElement.classList.add('gc-pending');})();
+(function(){if(window.GC_GAME||/[?&](game|id)=/.test(location.search))document.documentElement.classList.add('gc-pending');})();

@@ -133,6 +133,10 @@ function faqItems(g, rs) {
   const minRamNum = parseInt(String(minRam), 10) || g.min.ram;
   const faq = [];
   faq.push({
+    q: `هل جهازي يشغّل ${n}؟`,
+    a: `استخدم الفحص أعلى هذه الصفحة — يقيس المعالج وكرت الشاشة والرام تلقائياً من المتصفح ويقارنها بمتطلبات ${n} ويعطيك نتيجة فورية من 100 مع تقدير FPS، بدون تحميل أي برامج.`,
+  });
+  faq.push({
     q: `ما هي متطلبات تشغيل ${n} على الكمبيوتر؟`,
     a: `الحد الأدنى لتشغيل ${n}: معالج ${minCpu}، رام ${minRam}${minGpu ? "، كرت شاشة " + minGpu : ""}، ومساحة فارغة ${minStorage}.`,
   });
@@ -203,21 +207,20 @@ export function buildGamePage(g, rs, gpuMap, games, opts) {
     : "";
   const notes = rs && rs.notes ? `<p><strong>ملاحظة:</strong> ${esc(rs.notes)}</p>` : "";
   const src = rs ? `المتطلبات الرسمية من ${esc(rs.publisher)}` : "تقديرات فريق الموقع بناءً على تجارب التشغيل";
+  const articleLink = hasRealArticle(g)
+    ? `<p style="text-align:center;font-size:15px">&#128196; <a href="${esc(g.downloadUrl)}"><strong>متطلبات تشغيل ${nameAr} الكاملة بالتفصيل + روابط التحميل — في مقال اللعبة</strong></a></p>`
+    : "";
   const content = `
 ${breadcrumb(g, base, site)}
+${opts.appHtml || ""}
 ${img}
-<p>تبحث عن <strong>متطلبات تشغيل ${nameAr}</strong> (${esc(g.name)}) على الكمبيوتر؟ في هذا الدليل تجد <strong>الحد الأدنى والمواصفات الموصى بها</strong>، وجدول <strong>الأداء المتوقع (FPS)</strong> حسب كرت الشاشة، وأداة مجانية تفحص جهازك في ثوانٍ وتخبرك: <strong>هل جهازك يشغّل ${nameAr} أم لا؟</strong></p>
+<p>الفحص بالأعلى يقيس جهازك تلقائياً ويقارنه بمتطلبات <strong>${nameAr}</strong> (${esc(g.name)}) ويعطيك نتيجة من 100 مع تقدير FPS — وتحت تلاقي <strong>ملخص المتطلبات</strong> وجدول <strong>الأداء المتوقع</strong> حسب كرت الشاشة.</p>
 
-<h2>متطلبات تشغيل ${nameAr} على الكمبيوتر</h2>
+<h2>ملخص متطلبات تشغيل ${nameAr}</h2>
 ${reqTable(g, rs, gpuMap)}
 ${notes}
+${articleLink}
 <p><strong>الفرق ببساطة:</strong> الحد الأدنى يعني أن اللعبة ستعمل بإعدادات منخفضة (حوالي ${g.baseFps.min} FPS)، أما المواصفات الموصى بها فتعني لعباً سلساً على إعدادات متوسطة إلى عالية (${g.baseFps.rec} FPS أو أكثر).</p>
-
-<div style="text-align:center;background:#eef5f3;border:1px solid #cfe3de;border-radius:6px;padding:20px;margin:18px 0">
-<p style="font-weight:700;font-size:17px;margin:0 0 12px">هل جهازك يشغّل ${nameAr}؟ اعرف في 5 ثوانٍ</p>
-<p style="margin:0 0 14px">أداة GameCheck تفحص المعالج وكرت الشاشة والرام تلقائياً من المتصفح — بدون تحميل أي برامج (على عكس المواقع الأجنبية) — وتعطيك نتيجة من 100 مع تقدير FPS.</p>
-<a class="downloadpcgame" href="${base}/?game=${esc(g.id)}" style="${CTA}">&#128269; افحص جهازك الآن</a>
-</div>
 
 <h2>الأداء المتوقع حسب كرت الشاشة</h2>
 ${fpsTable(g, gpuMap, base)}
@@ -230,8 +233,8 @@ ${relatedBlock(g, games, base)}
 ${videoGameSchema(g, rs, site)}
 `;
   return {
-    title: `متطلبات تشغيل ${g.nameAr} على الكمبيوتر — الحد الأدنى والموصى به`,
-    desc: `متطلبات تشغيل ${g.nameAr} (${g.name}) للكمبيوتر: الحد الأدنى والموصى به، الأداء المتوقع FPS، وافحص هل جهازك يشغلها مجاناً في ثوانٍ.`,
+    title: `هل جهازي يشغّل ${g.nameAr}؟ — فحص فوري لمتطلبات التشغيل و FPS`,
+    desc: `افحص هل جهازك يشغّل ${g.nameAr} (${g.name}) في 5 ثوانٍ: فحص تلقائي من المتصفح، نتيجة من 100، تقدير FPS، وملخص الحد الأدنى والموصى به.`,
     canonical: `${site}/check/${g.id}/`,
     content,
   };
