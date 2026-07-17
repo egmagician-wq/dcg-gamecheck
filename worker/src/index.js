@@ -3,6 +3,7 @@
 import catalogData from "../../data/game-requirements.json";
 import realSpecs from "../../data/real-specs.json";
 import gpuMap from "../../data/gpu-map.json";
+import reqPosts from "../../data/req-posts.json";
 import pageTop from "../../tools/templates/page-top.html";
 import pageBottom from "../../tools/templates/page-bottom.html";
 import { buildGamePage, buildSitemap, esc } from "./render.js";
@@ -15,6 +16,10 @@ const APP_JS = "https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@ef18884e
 const SHELL_TTL = 21600; // 6 ساعات
 
 const games = catalogData.games;
+
+// كتالوج جاهز محقون في كل صفحة — يغني التطبيق عن 3 طلبات شبكة لجلب البيانات (jsDelivr)
+// عند بدء الفحص، فيلغي أي تأخير/تجمّد لشريط التقدم قبل ما يبدأ (السبب الأصلي كان انتظار الشبكة)
+const CATALOG_SCRIPT = `<script>window.__GC_CATALOG__=${JSON.stringify({ games, gpuMap, reqPosts }).replace(/</g, "\\u003c")};</script>`;
 
 // ثيم احتياطي بسيط لو صفحة الـ shell مش متاحة لأي سبب
 const FALLBACK_SHELL = `<!doctype html><html dir="rtl" lang="ar"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>فحص متطلبات تشغيل الألعاب</title></head><body style="max-width:860px;margin:0 auto;padding:0 14px;font-family:Tahoma,Arial;line-height:1.9;color:#222"><p><a href="${SITE}/">&#8592; موقع تحميل ألعاب كمبيوتر</a></p>${MARKER}<p style="text-align:center"><a href="${SITE}/">downloadcomputergames.net</a></p></body></html>`;
@@ -78,7 +83,7 @@ function homeContent() {
   // نفس صفحة الأداة: الستايل والسكيما (page-top) + الهيكل (page-bottom) + الكود من CDN
   // ملحوظة: قالب page-top يترك وسم <script> الأخير مفتوحاً (لأن نسخة بلوجر تحقن الكود داخله) — نقفله هنا
   const top = pageTop.replace(/^<!--[\s\S]*?-->/, "");
-  return top + `\n</script>\n<script src="${APP_JS}" defer></script>\n` + pageBottom;
+  return top + `\n</script>\n${CATALOG_SCRIPT}\n<script src="${APP_JS}" defer></script>\n` + pageBottom;
 }
 
 // الأداة التفاعلية مدمجة داخل صفحة اللعبة: الفحص يبدأ تلقائياً للعبة الصفحة
@@ -90,7 +95,7 @@ function appBlock(g) {
     .replace(/<div class="gc-intro"[\s\S]*?<\/div>/, "")
     .replace(/<section class="gc-faq"[\s\S]*?<\/section>/, "")
     .replace("هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب", "هل جهازي يشغّل " + g.nameAr + "؟");
-  return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n</script>\n<script src="${APP_JS}" defer></script>\n` + bottom;
+  return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n</script>\n${CATALOG_SCRIPT}\n<script src="${APP_JS}" defer></script>\n` + bottom;
 }
 
 async function getShell(ctx) {
