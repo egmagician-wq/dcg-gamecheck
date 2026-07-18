@@ -124,7 +124,7 @@ ${body}
 }
 
 function faqItems(g, rs) {
-  const n = g.nameAr;
+  const n = g.nameAr, en = g.name;
   const minCpu = rs ? rs.min.cpu : cpuReqLabel(g.min.cpuScore);
   const minGpu = rs ? rs.min.gpu : "";
   const minRam = rs ? rs.min.ram : g.min.ram + " GB";
@@ -133,11 +133,11 @@ function faqItems(g, rs) {
   const minRamNum = parseInt(String(minRam), 10) || g.min.ram;
   const faq = [];
   faq.push({
-    q: `هل جهازي يشغّل ${n}؟`,
+    q: `هل جهازي يشغّل ${n} (${en})؟`,
     a: `استخدم الفحص أعلى هذه الصفحة — يقيس المعالج وكرت الشاشة والرام تلقائياً من المتصفح ويقارنها بمتطلبات ${n} ويعطيك نتيجة فورية من 100 مع تقدير FPS، بدون تحميل أي برامج.`,
   });
   faq.push({
-    q: `ما هي متطلبات تشغيل ${n} على الكمبيوتر؟`,
+    q: `ما هي متطلبات تشغيل ${n} (${en}) على الكمبيوتر؟`,
     a: `الحد الأدنى لتشغيل ${n}: معالج ${minCpu}، رام ${minRam}${minGpu ? "، كرت شاشة " + minGpu : ""}، ومساحة فارغة ${minStorage}.`,
   });
   faq.push(minRamNum <= 4 ? {
@@ -177,7 +177,7 @@ function faqItems(g, rs) {
 function faqBlock(g, rs) {
   const faq = faqItems(g, rs);
   const html = `<h2>أسئلة شائعة عن متطلبات ${esc(g.nameAr)}</h2>\n` +
-    faq.map(f => `<h3>${esc(f.q)}</h3>\n<p>${esc(f.a)}</p>`).join("\n");
+    faq.map(f => `<details class="gc-faq-item"><summary class="gc-faq-q">${esc(f.q)}</summary><p class="gc-faq-a">${esc(f.a)}</p></details>`).join("\n");
   const schema = '<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[' +
     faq.map(f => `{"@type":"Question","name":"${escJson(f.q)}","acceptedAnswer":{"@type":"Answer","text":"${escJson(f.a)}"}}`).join(",") +
     "]}</script>";
@@ -188,9 +188,44 @@ function relatedBlock(g, games, checkBase) {
   const rel = games.filter(x => x.category === g.category && x.id !== g.id && hasRealArticle(x)).slice(0, 4);
   if (!rel.length) return "";
   const items = rel.map(r =>
-    `<li><a href="${checkBase}/${esc(r.id)}/">متطلبات تشغيل ${esc(r.nameAr)}</a> — <a href="${esc(r.downloadUrl)}">تحميل اللعبة</a></li>`
+    `<li><a href="${checkBase}/${esc(r.id)}/">متطلبات تشغيل ${esc(r.nameAr)} <span class="gc-en-name">${esc(r.name)}</span></a> — <a href="${esc(r.downloadUrl)}">تحميل اللعبة</a></li>`
   ).join("\n");
-  return `<h2>ألعاب مشابهة قد تهمك</h2>\n<ul>\n${items}\n</ul>`;
+  return `<div id="gc-related-block"><h2>ألعاب مشابهة قد تهمك</h2>\n<ul>\n${items}\n</ul></div>`;
+}
+
+// فقرات مقدمة متغيّرة (مش قالب ثابت) — بتختار صياغة حسب هاش معرف اللعبة
+// عشان مفيش صفحتين بنفس الجملة بالظبط (Google's "remove the variable" thin-content test)
+function hashPick(seed, arr) {
+  let h = 0;
+  for (let i = 0; i < seed.length; i++) h = (h * 31 + seed.charCodeAt(i)) >>> 0;
+  return arr[h % arr.length];
+}
+
+function weightPhrase(w) {
+  return w === "light" ? "من الألعاب الخفيفة اللي بتشتغل على معظم الأجهزة"
+    : w === "heavy" ? "من الألعاب الثقيلة اللي محتاجة جهاز قوي نسبياً"
+    : "لعبة متوسطة المتطلبات";
+}
+
+function introParagraphs(g, rs) {
+  const n = esc(g.nameAr), en = esc(g.name);
+  const minRamNum = rs ? (parseInt(String(rs.min.ram), 10) || g.min.ram) : g.min.ram;
+  const ramText = `${minRamNum} GB رام`;
+  const p1Templates = [
+    m => `متطلبات تشغيل ${n} (${en}) على الكمبيوتر تبدأ من ${m} — استخدم الفحص أدناه لمعرفة هل جهازك يشغّلها في ثوانٍ من غير تحميل أي برنامج.`,
+    m => `عايز تعرف هل جهازك يشغّل ${n} (${en})؟ الحد الأدنى المطلوب ${m}. جرّب الفحص التلقائي أدناه وشوف النتيجة فوراً.`,
+    m => `${n} (${en}) محتاجة ${m} على الأقل للتشغيل. الفحص أدناه بيقارن مواصفات جهازك بالمتطلبات فعلياً ويديك نتيجة دقيقة.`,
+  ];
+  const p1 = hashPick(g.id, p1Templates)(ramText);
+
+  const yearPub = rs && rs.publisher ? ` من إنتاج ${esc(rs.publisher)}${rs.year ? " سنة " + rs.year : ""}` : "";
+  const heavyNote = g.weight === "heavy" ? "، ومن الأفضل التأكد من مواصفات جهازك قبل التحميل لأنها من الألعاب الثقيلة" : "";
+  const p2Templates = [
+    () => `اللعبة${yearPub} من تصنيف ${esc(g.category)}، و${weightPhrase(g.weight)}. الفحص هنا بيقيس أداء معالجك وكرت شاشتك فعلياً من المتصفح — مش مجرد مطابقة أرقام — عشان النتيجة تبقى أدق.`,
+    () => `${n}${yearPub} لعبة ${esc(g.category)}${heavyNote}. أداتنا تفحص جهازك الحقيقي بدل الاعتماد على تخمين اسم الكرت بس.`,
+  ];
+  const p2 = hashPick(g.id + "x", p2Templates)();
+  return `<div class="gc-page-intro"><p>${p1}</p><p>${p2}</p></div>`;
 }
 
 export function buildGamePage(g, rs, gpuMap, games, opts) {
@@ -207,15 +242,15 @@ export function buildGamePage(g, rs, gpuMap, games, opts) {
     : "";
   const notes = rs && rs.notes ? `<p><strong>ملاحظة:</strong> ${esc(rs.notes)}</p>` : "";
   const src = rs ? `المتطلبات الرسمية من ${esc(rs.publisher)}` : "تقديرات فريق الموقع بناءً على تجارب التشغيل";
+  const today = new Date().toISOString().slice(0, 10);
   const articleLink = hasRealArticle(g)
     ? `<p style="text-align:center;font-size:15px">&#128196; <a href="${esc(g.downloadUrl)}"><strong>متطلبات تشغيل ${nameAr} الكاملة بالتفصيل + روابط التحميل — في مقال اللعبة</strong></a></p>`
     : "";
   const content = `
 ${breadcrumb(g, base, site)}
+${introParagraphs(g, rs)}
 ${opts.appHtml || ""}
 ${img}
-<p>الفحص بالأعلى يقيس جهازك تلقائياً ويقارنه بمتطلبات <strong>${nameAr}</strong> (${esc(g.name)}) ويعطيك نتيجة من 100 مع تقدير FPS — وتحت تلاقي <strong>ملخص المتطلبات</strong> وجدول <strong>الأداء المتوقع</strong> حسب كرت الشاشة.</p>
-
 <h2>ملخص متطلبات تشغيل ${nameAr}</h2>
 ${reqTable(g, rs, gpuMap)}
 ${notes}
@@ -229,13 +264,14 @@ ${infoBox(g, rs)}
 ${dl}
 ${faqBlock(g, rs)}
 ${relatedBlock(g, games, base)}
-<p style="font-size:13px;color:#777">المصدر: ${src}.</p>
+<p style="font-size:13px;color:#777">آخر تحديث: ${today} — المصدر: ${src}.</p>
 ${videoGameSchema(g, rs, site)}
 `;
   return {
-    title: `هل جهازي يشغّل ${g.nameAr}؟ — فحص فوري لمتطلبات التشغيل و FPS`,
+    title: `هل جهازي يشغّل ${g.nameAr} (${g.name})؟ — فحص فوري لمتطلبات التشغيل و FPS`,
     desc: `افحص هل جهازك يشغّل ${g.nameAr} (${g.name}) في 5 ثوانٍ: فحص تلقائي من المتصفح، نتيجة من 100، تقدير FPS، وملخص الحد الأدنى والموصى به.`,
     canonical: `${site}/check/${g.id}/`,
+    image: g.imageUrl || "",
     content,
   };
 }

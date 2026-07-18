@@ -94,7 +94,7 @@ function appBlock(g) {
   const bottom = pageBottom
     .replace(/<div class="gc-intro"[\s\S]*?<\/div>/, "")
     .replace(/<section class="gc-faq"[\s\S]*?<\/section>/, "")
-    .replace("هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب", "هل جهازي يشغّل " + g.nameAr + "؟");
+    .replace("هل جهازي يشغّل اللعبة؟ — فحص متطلبات تشغيل الألعاب", "هل جهازي يشغّل " + g.nameAr + " (" + g.name + ")؟");
   return `<script>window.GC_GAME=${JSON.stringify(g.id)};</script>\n` + top + `\n</script>\n${CATALOG_SCRIPT}\n<script src="${APP_JS}" defer></script>\n` + bottom;
 }
 
@@ -125,11 +125,15 @@ async function renderInShell(ctx, page) {
     : shell + page.content;
   // عنوان الصفحة
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(page.title)}</title>`);
-  // إزالة canonical/description بتوع صفحة الـ shell وإضافة بتوعنا
+  // إزالة وسوم الميتا بتوع صفحة الـ shell (canonical/description/OG/Twitter) وإضافة بتوعنا
   html = html.replace(/<link[^>]*rel=['"]canonical['"][^>]*>\s*/gi, "");
   html = html.replace(/<meta[^>]*name=['"]description['"][^>]*>\s*/gi, "");
-  html = html.replace(/<meta[^>]*property=['"]og:url['"][^>]*>\s*/gi, "");
+  html = html.replace(/<meta[^>]*property=['"]og:[a-z:]+['"][^>]*>\s*/gi, "");
+  html = html.replace(/<meta[^>]*name=['"]twitter:[a-z:]+['"][^>]*>\s*/gi, "");
+  const ogImage = page.image
+    ? `<meta property="og:image" content="${esc(page.image)}"/><meta name="twitter:card" content="summary_large_image"/>`
+    : `<meta name="twitter:card" content="summary"/>`;
   html = html.replace("</head>",
-    `<link rel="canonical" href="${page.canonical}"/><meta name="description" content="${esc(page.desc)}"/><meta property="og:url" content="${page.canonical}"/></head>`);
+    `<link rel="canonical" href="${page.canonical}"/><meta name="description" content="${esc(page.desc)}"/><meta property="og:type" content="website"/><meta property="og:url" content="${page.canonical}"/><meta property="og:title" content="${esc(page.title)}"/><meta property="og:description" content="${esc(page.desc)}"/>${ogImage}</head>`);
   return html;
 }
