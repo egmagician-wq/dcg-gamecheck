@@ -27,6 +27,15 @@ const FALLBACK_SHELL = `<!doctype html><html dir="rtl" lang="ar"><head><meta cha
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    // توحيد الدومين على www (النسخة القياسية اللي كل روابطنا والـ sitemap بيشاوروا عليها)
+    // عشان جوجل ميشوفش نفس الصفحة على رابطين مختلفين — الـ route شغال على النطاقين
+    // (www وبدونه) بس هنا بنوجّه الزائر لنسخة www دايماً
+    if (url.hostname !== "www.downloadcomputergames.net") {
+      url.hostname = "www.downloadcomputergames.net";
+      return Response.redirect(url.toString(), 301);
+    }
+
     let p = url.pathname;
     if (p.startsWith("/check")) p = p.slice("/check".length);
     if (!p.startsWith("/")) p = "/" + p;
