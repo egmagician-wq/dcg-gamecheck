@@ -118,13 +118,27 @@ async function getShell(ctx) {
   return FALLBACK_SHELL;
 }
 
+// بلوجر بيحط صدى للعلامة مرتين: مرة جوه الـ schema التلقائي بتاعه (وصف/عنوان مشتق من محتوى الصفحة)
+// ومرة تانية جوه حاوية المحتوى الحقيقية (ArticleBox). نستهدف آخر ظهور لأنه دايماً الحاوية
+// الحقيقية — استبدال أول ظهور (زي ما كان قبل كده) كان بيكسر الـ schema بتاع بلوجر لأنه بيحقن
+// محتوى ضخم فيه <script> تانية جوه سكريبت الـ schema المفتوح، فيقفله بدري ويسيب الباقي كنص ظاهر.
+function replaceLastOccurrence(str, search, replacement) {
+  const idx = str.lastIndexOf(search);
+  if (idx === -1) return null;
+  return str.slice(0, idx) + replacement + str.slice(idx + search.length);
+}
+
 async function renderInShell(ctx, page) {
   const shell = await getShell(ctx);
-  let html = shell.includes(MARKER)
-    ? shell.replace(MARKER, page.content)
-    : shell + page.content;
+  const replaced = replaceLastOccurrence(shell, MARKER, page.content);
+  let html = replaced !== null ? replaced : shell + page.content;
   // عنوان الصفحة
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(page.title)}</title>`);
+  // عنوان صفحة الـ shell الحقيقي في بلوجر ("Shell") بيظهر في عنصر منفصل بيرندره الثيم
+  // فوق محتوانا مباشرة (مش جزء من الـ HTML اللي بنحقنه) — نستبدل نصه بعنوان الصفحة الفعلي
+  // عشان يبان طبيعي بدل كلمة "Shell" الغريبة
+  const nativeH1Text = esc(page.title.split(" — ")[0]);
+  html = html.replace(/(<h1\b[^>]*\bpost-title\b[^>]*>)[\s\S]*?(<\/h1>)/i, `$1${nativeH1Text}$2`);
   // إزالة وسوم الميتا بتوع صفحة الـ shell (canonical/description/OG/Twitter) وإضافة بتوعنا
   html = html.replace(/<link[^>]*rel=['"]canonical['"][^>]*>\s*/gi, "");
   html = html.replace(/<meta[^>]*name=['"]description['"][^>]*>\s*/gi, "");

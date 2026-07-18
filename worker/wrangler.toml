@@ -2,11 +2,9 @@ name = "dcg-gamecheck"
 main = "src/index.js"
 compatibility_date = "2026-01-01"
 
-# مهم: أول نشر يكون بدون routes — نجرب على رابط workers.dev المعزول الأول.
-# بعد التأكد إن كل حاجة تمام، فعّل السطرين دول (شيل علامة #) وانشر تاني:
-# routes = [
-#   { pattern = "www.downloadcomputergames.net/check/*", zone_name = "downloadcomputergames.net" }
-# ]
+routes = [
+  { pattern = "www.downloadcomputergames.net/check/*", zone_name = "downloadcomputergames.net" }
+]
 
 rules = [
   { type = "Text", globs = ["**/*.html"], fallthrough = true }

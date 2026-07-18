@@ -233,7 +233,7 @@ export function buildGamePage(g, rs, gpuMap, games, opts) {
   const site = opts.site;
   const nameAr = esc(g.nameAr);
   const img = g.imageUrl
-    ? `<div style="text-align:center"><img src="${esc(g.imageUrl)}" alt="متطلبات تشغيل ${nameAr} على الكمبيوتر" style="max-width:100%;border-radius:6px" loading="lazy"/></div>\n`
+    ? `<div style="text-align:center"><img src="${esc(g.imageUrl)}" alt="متطلبات تشغيل ${nameAr} على الكمبيوتر" style="width:auto!important;max-width:100%!important;height:auto!important;border-radius:6px" loading="lazy"/></div>\n`
     : "";
   const dl = hasRealArticle(g)
     ? `<h2>تحميل ${nameAr} للكمبيوتر</h2>
