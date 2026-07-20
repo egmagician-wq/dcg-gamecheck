@@ -36,6 +36,12 @@ export default {
       return Response.redirect(url.toString(), 301);
     }
 
+    // ‏/check من غير شرطة أخيرة → تحويل للنسخة القياسية /check/
+    if (url.pathname === "/check") {
+      url.pathname = "/check/";
+      return Response.redirect(url.toString(), 301);
+    }
+
     let p = url.pathname;
     if (p.startsWith("/check")) p = p.slice("/check".length);
     if (!p.startsWith("/")) p = "/" + p;

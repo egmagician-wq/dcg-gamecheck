@@ -5,7 +5,9 @@ compatibility_date = "2026-01-01"
 # *domain.net (نجمة بدل www.) عشان يغطي الدومين بـ www وبدونه — نفس الأسلوب
 # المستخدم في ووركرز الموقع التانية (push-topic, swjs) على نفس الحساب
 routes = [
-  { pattern = "*downloadcomputergames.net/check/*", zone_name = "downloadcomputergames.net" }
+  { pattern = "*downloadcomputergames.net/check/*", zone_name = "downloadcomputergames.net" },
+  # النمط اللي فوق مبيمسكش /check من غير شرطة أخيرة — فبيعدي لبلوجر ويرجع 404
+  { pattern = "*downloadcomputergames.net/check", zone_name = "downloadcomputergames.net" }
 ]
 
 rules = [
