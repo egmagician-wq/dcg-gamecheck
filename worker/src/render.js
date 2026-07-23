@@ -32,8 +32,8 @@ function cpuReqLabel(score) {
 }
 
 function breadcrumb(g, checkBase, site) {
-  const html = `<p style="font-size:13px;color:#777;margin:0 0 10px"><a href="${site}/">الرئيسية</a> &laquo; <a href="${checkBase}/">فحص متطلبات التشغيل</a> &laquo; ${esc(g.nameAr)}</p>`;
-  const schema = `<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":"${site}/"},{"@type":"ListItem","position":2,"name":"فحص متطلبات تشغيل الألعاب","item":"${site}/check/"},{"@type":"ListItem","position":3,"name":"${escJson(g.nameAr)}","item":"${site}/check/${g.id}/"}]}</script>`;
+  const html = `<p style="font-size:13px;color:#777;margin:0 0 10px"><a href="${site}/">الرئيسية</a> &laquo; <a href="${checkBase}/">أداة فحص الأجهزة</a> &laquo; ${esc(g.nameAr)}</p>`;
+  const schema = `<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"الرئيسية","item":"${site}/"},{"@type":"ListItem","position":2,"name":"أداة فحص الأجهزة","item":"${site}/check/"},{"@type":"ListItem","position":3,"name":"${escJson(g.nameAr)}","item":"${site}/check/${g.id}/"}]}</script>`;
   return html + schema;
 }
 
@@ -137,7 +137,7 @@ function faqItems(g, rs) {
     a: `استخدم الفحص أعلى هذه الصفحة — يقيس المعالج وكرت الشاشة والرام تلقائياً من المتصفح ويقارنها بمتطلبات ${n} ويعطيك نتيجة فورية من 100 مع تقدير FPS، بدون تحميل أي برامج.`,
   });
   faq.push({
-    q: `ما هي متطلبات تشغيل ${n} (${en}) على الكمبيوتر؟`,
+    q: `ما هي المواصفات المطلوبة لتشغيل ${n} (${en}) على الكمبيوتر؟`,
     a: `الحد الأدنى لتشغيل ${n}: معالج ${minCpu}، رام ${minRam}${minGpu ? "، كرت شاشة " + minGpu : ""}، ومساحة فارغة ${minStorage}.`,
   });
   faq.push(minRamNum <= 4 ? {
@@ -188,7 +188,7 @@ function relatedBlock(g, games, checkBase) {
   const rel = games.filter(x => x.category === g.category && x.id !== g.id && hasRealArticle(x)).slice(0, 4);
   if (!rel.length) return "";
   const items = rel.map(r =>
-    `<li><a href="${checkBase}/${esc(r.id)}/">متطلبات تشغيل ${esc(r.nameAr)} <span class="gc-en-name">${esc(r.name)}</span></a> — <a href="${esc(r.downloadUrl)}">تحميل اللعبة</a></li>`
+    `<li><a href="${checkBase}/${esc(r.id)}/">هل جهازك يشغّل ${esc(r.nameAr)}؟ <span class="gc-en-name">${esc(r.name)}</span></a> — <a href="${esc(r.downloadUrl)}">تحميل اللعبة</a></li>`
   ).join("\n");
   return `<div id="gc-related-block"><h2>ألعاب مشابهة قد تهمك</h2>\n<ul>\n${items}\n</ul></div>`;
 }
@@ -212,7 +212,7 @@ function introParagraphs(g, rs) {
   const minRamNum = rs ? (parseInt(String(rs.min.ram), 10) || g.min.ram) : g.min.ram;
   const ramText = `${minRamNum} GB رام`;
   const p1Templates = [
-    m => `متطلبات تشغيل ${n} (${en}) على الكمبيوتر تبدأ من ${m} — استخدم الفحص أدناه لمعرفة هل جهازك يشغّلها في ثوانٍ من غير تحميل أي برنامج.`,
+    m => `هل جهازك يشغّل ${n} (${en})؟ المواصفات المطلوبة تبدأ من ${m} — استخدم الفحص أدناه لمعرفة النتيجة في ثوانٍ من غير تحميل أي برنامج.`,
     m => `عايز تعرف هل جهازك يشغّل ${n} (${en})؟ الحد الأدنى المطلوب ${m}. جرّب الفحص التلقائي أدناه وشوف النتيجة فوراً.`,
     m => `${n} (${en}) محتاجة ${m} على الأقل للتشغيل. الفحص أدناه بيقارن مواصفات جهازك بالمتطلبات فعلياً ويديك نتيجة دقيقة.`,
   ];
@@ -233,7 +233,7 @@ export function buildGamePage(g, rs, gpuMap, games, opts) {
   const site = opts.site;
   const nameAr = esc(g.nameAr);
   const img = g.imageUrl
-    ? `<div style="text-align:center"><img src="${esc(g.imageUrl)}" alt="متطلبات تشغيل ${nameAr} على الكمبيوتر" style="width:auto!important;max-width:100%!important;height:auto!important;border-radius:6px" loading="lazy"/></div>\n`
+    ? `<div style="text-align:center"><img src="${esc(g.imageUrl)}" alt="هل جهازك يشغّل ${nameAr}" style="width:auto!important;max-width:100%!important;height:auto!important;border-radius:6px" loading="lazy"/></div>\n`
     : "";
   const dl = hasRealArticle(g)
     ? `<h2>تحميل ${nameAr} للكمبيوتر</h2>
@@ -251,7 +251,7 @@ ${breadcrumb(g, base, site)}
 ${introParagraphs(g, rs)}
 ${opts.appHtml || ""}
 ${img}
-<h2>ملخص متطلبات تشغيل ${nameAr}</h2>
+<h2>المواصفات المطلوبة لتشغيل ${nameAr}</h2>
 ${reqTable(g, rs, gpuMap)}
 ${notes}
 ${articleLink}
@@ -268,7 +268,7 @@ ${relatedBlock(g, games, base)}
 ${videoGameSchema(g, rs, site)}
 `;
   return {
-    title: `هل جهازي يشغّل ${g.nameAr} (${g.name})؟ — فحص فوري لمتطلبات التشغيل و FPS`,
+    title: `هل جهازي يشغّل ${g.nameAr} (${g.name})؟ — فحص فوري لمواصفات جهازك و FPS`,
     desc: `افحص هل جهازك يشغّل ${g.nameAr} (${g.name}) في 5 ثوانٍ: فحص تلقائي من المتصفح، نتيجة من 100، تقدير FPS، وملخص الحد الأدنى والموصى به.`,
     canonical: `${site}/check/${g.id}/`,
     image: g.imageUrl || "",

@@ -17,7 +17,7 @@ const check = (label, cond) => { console.log((cond ? "[OK] " : "[FAIL] ") + labe
 const gta = games.find(g => g.id === "gta-v");
 const p1 = buildGamePage(gta, realSpecs["gta-v"], gpuMap, games, opts);
 check("gta-v: العنوان يستهدف (هل جهازي يشغل) بالعربي والإنجليزي", p1.title.includes("هل جهازي يشغّل جتا 5") && p1.title.includes("GTA V"));
-check("gta-v: ملخص المتطلبات موجود", p1.content.includes("ملخص متطلبات تشغيل جتا 5"));
+check("gta-v: ملخص المتطلبات موجود", p1.content.includes("المواصفات المطلوبة لتشغيل جتا 5"));
 check("gta-v: رابط المقال للمتطلبات الكاملة", p1.content.includes("متطلبات تشغيل جتا 5 الكاملة بالتفصيل"));
 check("gta-v: جدول رسمي فيه اسم معالج حقيقي", p1.content.includes("Core 2 Quad Q6600"));
 check("gta-v: canonical صحيح", p1.canonical === "https://www.downloadcomputergames.net/check/gta-v/");
@@ -27,7 +27,7 @@ check("gta-v: فيه VideoGame schema", p1.content.includes('"@type":"VideoGame"
 check("gta-v: فيه Breadcrumb schema", p1.content.includes('"@type":"BreadcrumbList"'));
 check("gta-v: فيه سؤال ويندوز 7", p1.content.includes("هل تعمل جتا 5 على ويندوز 7؟"));
 check("gta-v: فيه زر التحميل", p1.content.includes("download-gta-5-for-pc.html"));
-check("gta-v: فقرتا المقدمة موجودتان قبل ملخص المتطلبات", p1.content.includes('class="gc-page-intro"') && p1.content.indexOf('class="gc-page-intro"') < p1.content.indexOf("ملخص متطلبات تشغيل"));
+check("gta-v: فقرتا المقدمة موجودتان قبل ملخص المتطلبات", p1.content.includes('class="gc-page-intro"') && p1.content.indexOf('class="gc-page-intro"') < p1.content.indexOf("المواصفات المطلوبة لتشغيل"));
 check("gta-v: فقرة المقدمة فيها الاسمين", /gc-page-intro[\s\S]*?جتا 5[\s\S]*?GTA V/.test(p1.content));
 check("gta-v: الأسئلة الشائعة details/summary مش h3", p1.content.includes('<details class="gc-faq-item">') && !p1.content.includes("<h3>هل جهازي يشغّل"));
 check("gta-v: قسم ألعاب مشابهة له id ثابت", p1.content.includes('id="gc-related-block"'));
