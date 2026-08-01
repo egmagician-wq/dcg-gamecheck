@@ -78,6 +78,17 @@ export default {
       return htmlResponse(html, 60, 404);
     }
 
+    // ‏/check/<id>/?game=<other> أو ?id=<other> — باراميتر متضارب مع الـ id في المسار نفسه
+    // (بقايا روابط قديمة كان بيولدها الموقع قبل إصلاح 2026-07-18). الـ canonical وحده
+    // مكفاش جوجل لسه بيفهرس النسخة دي كنتيجة منفصلة، فبنعمل 301 صريح يجبر الدمج فوراً.
+    if (url.searchParams.has("game") || url.searchParams.has("id")) {
+      const clean = new URL(`${checkBase}/${id}/`, url.origin);
+      for (const [k, v] of url.searchParams) {
+        if (k !== "game" && k !== "id") clean.searchParams.set(k, v);
+      }
+      return Response.redirect(clean.toString(), 301);
+    }
+
     const page = buildGamePage(g, realSpecs[g.id] || null, gpuMap, games, { checkBase, site: SITE, appHtml: appBlock(g) });
     const html = await renderInShell(ctx, page);
     return htmlResponse(html, 1800);
