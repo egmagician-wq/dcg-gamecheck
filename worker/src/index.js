@@ -12,7 +12,7 @@ const SITE = "https://www.downloadcomputergames.net";
 const SHELL_URL = SITE + "/p/shell.html";
 const MARKER = "GC_CONTENT";
 // نسخة مثبتة بترقيم commit — تتحدث مع كل نشر جديد (لا كاش قديم أبداً)
-const APP_JS = "https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@d6e4871d11a180469e5d7f030adfeedd31aee92f/assets/gamecheck.js";
+const APP_JS = "https://cdn.jsdelivr.net/gh/egmagician-wq/dcg-gamecheck@447e666a799075d1a0e9aa2bbac4f0f7df45403d/assets/gamecheck.js";
 const SHELL_TTL = 21600; // 6 ساعات
 
 const games = catalogData.games;
