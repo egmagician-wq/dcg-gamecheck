@@ -28,7 +28,7 @@ function cpuReqLabel(score) {
   if (score >= 70) return "Intel Core i7 / Ryzen 7 أو أقوى";
   if (score >= 55) return "Intel Core i5 / Ryzen 5 أو أقوى";
   if (score >= 40) return "Intel Core i3 / Ryzen 3 أو أقوى";
-  return "معالج ثنائي النواة على الأقل";
+  return "ثنائي النواة على الأقل";
 }
 
 function breadcrumb(g, checkBase, site) {
@@ -85,14 +85,20 @@ function fpsTable(g, gpuMap, checkBase) {
   const tiers = gpuMap.gpus.filter(t => [12, 18, 28, 38, 45, 58, 72, 82].includes(t.score));
   const rows = tiers.map(t => {
     let ratio = t.score / g.rec.gpuScore;
-    if (ratio > 1.2) ratio = 1.2;
+    // فوق الموصى به منحنى عائد متناقص بدل قطع ثابت عند 1.2 — عشان كل مستوى أقوى
+    // يفضل يظهر برقم مختلف (متصاعد) بدل ما 5 مستويات تطلع بنفس الرقم بالظبط
+    if (ratio > 1) ratio = 1 + Math.log(ratio) * 0.35;
     const fps = g.baseFps.rec * ratio * wf;
     const lo = Math.max(15, Math.round(fps * 0.75));
     const hi = Math.max(lo, Math.round(fps * 1.1));
     const verdict = t.score >= g.rec.gpuScore ? "&#9989; ممتاز — إعدادات عالية"
       : t.score >= g.min.gpuScore ? "&#9888;&#65039; جيد — إعدادات متوسطة/منخفضة"
       : "&#10060; أضعف من الحد الأدنى";
-    const fpsTxt = t.score < g.min.gpuScore ? "&mdash;" : `${lo}&ndash;${hi} FPS`;
+    // بعض المحركات بتقفل الـ FPS على رقم ثابت (زي سلسلة PES على الكمبيوتر) —
+    // نعرض ده صراحة بدل رقم وهمي أعلى من اللي اللعبة أصلاً بتقدر توصله
+    const fpsTxt = t.score < g.min.gpuScore ? "&mdash;"
+      : g.fpsCap && hi >= g.fpsCap ? `${g.fpsCap} ثابت (اللعبة مقفولة على ${g.fpsCap} FPS)`
+      : `${lo}&ndash;${hi} FPS`;
     return `<tr><th scope="row" style="${TH}">${esc(t.label)}</th><td style="${TD}">${fpsTxt}</td><td style="${TD}">${verdict}</td></tr>`;
   }).join("\n");
   return `<table style="${TBL}">
