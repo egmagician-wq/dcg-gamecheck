@@ -54,6 +54,15 @@ export default {
 
     const checkBase = url.pathname.startsWith("/check") ? "/check" : "";
 
+    // الصفحة الرئيسية للأداة: /check/?game=<id> — لو اللعبة موجودة، 301 لصفحتها
+    // المستقلة النضيفة بدل ما نفهرس نسخة query-string مكررة لنفس المحتوى
+    if ((p === "/" || p === "") && (url.searchParams.has("game") || url.searchParams.has("id"))) {
+      const gameParam = url.searchParams.get("game") || url.searchParams.get("id");
+      if (games.find(x => x.id === gameParam)) {
+        return Response.redirect(new URL(`${checkBase}/${gameParam}/`, url.origin).toString(), 301);
+      }
+    }
+
     // الصفحة الرئيسية للأداة: /check/ (تدعم ?game= كالمعتاد)
     if (p === "/" || p === "") {
       const html = await renderInShell(ctx, {
@@ -170,6 +179,9 @@ async function renderInShell(ctx, page) {
   html = html.replace(/<meta[^>]*name=['"]description['"][^>]*>\s*/gi, "");
   html = html.replace(/<meta[^>]*property=['"]og:[a-z:]+['"][^>]*>\s*/gi, "");
   html = html.replace(/<meta[^>]*name=['"]twitter:[a-z:]+['"][^>]*>\s*/gi, "");
+  // ميتا keywords بتاعة صفحة الـ shell بتفضل "Shell" الاسم الحرفي للصفحة — Google
+  // بيتجاهل الوسم ده تماماً من 2009 فمفيش قيمة نضيفها، بس نشيلها عشان ميبقاش ظاهر غلط
+  html = html.replace(/<meta[^>]*name=['"]keywords['"][^>]*>\s*/gi, "");
   const ogImage = page.image
     ? `<meta property="og:image" content="${esc(page.image)}"/><meta name="twitter:card" content="summary_large_image"/>`
     : `<meta name="twitter:card" content="summary"/>`;
